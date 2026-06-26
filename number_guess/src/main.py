@@ -3,7 +3,6 @@ from src.game_logic.number_generator import generate_random_number
 from src.game_logic.score import Score
 from src.game_logic.hint_generator import provide_hint
 
-
 def main():
     score = Score(100)
     random_number = generate_random_number(1, 100)
