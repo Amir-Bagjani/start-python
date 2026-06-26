@@ -88,16 +88,16 @@ def memorable_random():
     assert all(char[0].istitle() for char in password.split("*"))
 
 
-def main():
-    print("Testing pincode generator:")
-    test_pin()
+# def main():
+#     print("Testing pincode generator:")
+#     test_pin()
 
-    print("Testing random password generator:")
-    test_random()
+#     print("Testing random password generator:")
+#     test_random()
 
-    print("Testing memorable password generator:")
-    memorable_random()
+#     print("Testing memorable password generator:")
+#     memorable_random()
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

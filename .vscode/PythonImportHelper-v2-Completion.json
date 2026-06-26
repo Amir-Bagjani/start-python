@@ -147,6 +147,39 @@
         "documentation": {}
     },
     {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "PinGenerator",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "RandomPasswordGenerator",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "MemorablePasswordGenerator",
+        "importPath": "src.main",
+        "description": "src.main",
+        "isExtraImport": true,
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -535,17 +568,26 @@
         "kind": 2,
         "importPath": "password_generator.src.main",
         "description": "password_generator.src.main",
-        "peekOfCode": "def memorable_random():\n    memorable_generator = MemorablePasswordGenerator(\n        words_number=5, separator=\"*\", capitalize=True\n    )\n    password = memorable_generator.generate()\n    print(password)\n    assert len(password.split(\"*\")) == 5\n    assert all(char[0].istitle() for char in password.split(\"*\"))\ndef main():\n    print(\"Testing pincode generator:\")",
+        "peekOfCode": "def memorable_random():\n    memorable_generator = MemorablePasswordGenerator(\n        words_number=5, separator=\"*\", capitalize=True\n    )\n    password = memorable_generator.generate()\n    print(password)\n    assert len(password.split(\"*\")) == 5\n    assert all(char[0].istitle() for char in password.split(\"*\"))\n# def main():\n#     print(\"Testing pincode generator:\")",
         "detail": "password_generator.src.main",
         "documentation": {}
     },
     {
-        "label": "main",
-        "kind": 2,
-        "importPath": "password_generator.src.main",
-        "description": "password_generator.src.main",
-        "peekOfCode": "def main():\n    print(\"Testing pincode generator:\")\n    test_pin()\n    print(\"Testing random password generator:\")\n    test_random()\n    print(\"Testing memorable password generator:\")\n    memorable_random()\nif __name__ == \"__main__\":\n    main()",
-        "detail": "password_generator.src.main",
+        "label": "option",
+        "kind": 5,
+        "importPath": "password_generator.view.main",
+        "description": "password_generator.view.main",
+        "peekOfCode": "option = st.radio(\n    \"Select a password generator: \",\n    (\"Random Password\", \"Memorable Password\", \"Pin Password\"),\n)\ngenerator = None\nif option == \"Pin Password\":\n    length = st.slider(\"Select the length of the pin:\", 4, 10)\n    generator = PinGenerator(length=length)\nelif option == \"Random Password\":\n    length = st.slider(\"Select the length of the random password:\", 4, 10)",
+        "detail": "password_generator.view.main",
+        "documentation": {}
+    },
+    {
+        "label": "generator",
+        "kind": 5,
+        "importPath": "password_generator.view.main",
+        "description": "password_generator.view.main",
+        "peekOfCode": "generator = None\nif option == \"Pin Password\":\n    length = st.slider(\"Select the length of the pin:\", 4, 10)\n    generator = PinGenerator(length=length)\nelif option == \"Random Password\":\n    length = st.slider(\"Select the length of the random password:\", 4, 10)\n    random_options = st.multiselect(\"select the options:\", (\"numbers\", \"symbols\"))\n    generator = RandomPasswordGenerator(\n        length=length,\n        includes_number=\"numbers\" in random_options,",
+        "detail": "password_generator.view.main",
         "documentation": {}
     },
     {
