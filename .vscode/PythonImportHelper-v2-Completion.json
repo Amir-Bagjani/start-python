@@ -447,6 +447,24 @@
         "documentation": {}
     },
     {
+        "label": "happy_number",
+        "kind": 2,
+        "importPath": "happy_numbers.src.main",
+        "description": "happy_numbers.src.main",
+        "peekOfCode": "def happy_number(number: int) -> bool:\n    seen_number = set()\n    while (number != 1) and (number not in seen_number):\n        seen_number.add(number)\n        number = sum([int(n) ** 2 for n in str(number)])\n    return number == 1\nif __name__ == \"__main__\":\n    while True:\n        try:\n            number = int(input(\"Enter number to check if it is happy or not: \").strip())",
+        "detail": "happy_numbers.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "happy_numbers.src.main",
+        "description": "happy_numbers.src.main",
+        "peekOfCode": "number = 45\ndef happy_number(number: int) -> bool:\n    seen_number = set()\n    while (number != 1) and (number not in seen_number):\n        seen_number.add(number)\n        number = sum([int(n) ** 2 for n in str(number)])\n    return number == 1\nif __name__ == \"__main__\":\n    while True:\n        try:",
+        "detail": "happy_numbers.src.main",
+        "documentation": {}
+    },
+    {
         "label": "provide_hint",
         "kind": 2,
         "importPath": "number_guess.src.game_logic.hint_generator",
