@@ -1,0 +1,722 @@
+[
+    {
+        "label": "check_for_zero_division",
+        "importPath": "utils.check_for_zero_division",
+        "description": "utils.check_for_zero_division",
+        "isExtraImport": true,
+        "detail": "utils.check_for_zero_division",
+        "documentation": {}
+    },
+    {
+        "label": "check_for_zero_division",
+        "importPath": "utils.check_for_zero_division",
+        "description": "utils.check_for_zero_division",
+        "isExtraImport": true,
+        "detail": "utils.check_for_zero_division",
+        "documentation": {}
+    },
+    {
+        "label": "check_for_zero_division",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "display_result",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_operator",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "importPath": "custom_operator",
+        "description": "custom_operator",
+        "isExtraImport": true,
+        "detail": "custom_operator",
+        "documentation": {}
+    },
+    {
+        "label": "floor_divide",
+        "importPath": "custom_operator",
+        "description": "custom_operator",
+        "isExtraImport": true,
+        "detail": "custom_operator",
+        "documentation": {}
+    },
+    {
+        "label": "modulo",
+        "importPath": "custom_operator",
+        "description": "custom_operator",
+        "isExtraImport": true,
+        "detail": "custom_operator",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "get_valid_input",
+        "importPath": "src.utils.input_validator",
+        "description": "src.utils.input_validator",
+        "isExtraImport": true,
+        "detail": "src.utils.input_validator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_number",
+        "importPath": "src.game_logic.number_generator",
+        "description": "src.game_logic.number_generator",
+        "isExtraImport": true,
+        "detail": "src.game_logic.number_generator",
+        "documentation": {}
+    },
+    {
+        "label": "Score",
+        "importPath": "src.game_logic.score",
+        "description": "src.game_logic.score",
+        "isExtraImport": true,
+        "detail": "src.game_logic.score",
+        "documentation": {}
+    },
+    {
+        "label": "provide_hint",
+        "importPath": "src.game_logic.hint_generator",
+        "description": "src.game_logic.hint_generator",
+        "isExtraImport": true,
+        "detail": "src.game_logic.hint_generator",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "importPath": "models.todo",
+        "description": "models.todo",
+        "isExtraImport": true,
+        "detail": "models.todo",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "importPath": "models.todo",
+        "description": "models.todo",
+        "isExtraImport": true,
+        "detail": "models.todo",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "importPath": "models.todo",
+        "description": "models.todo",
+        "isExtraImport": true,
+        "detail": "models.todo",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_id",
+        "importPath": "cli.get_user_input",
+        "description": "cli.get_user_input",
+        "isExtraImport": true,
+        "detail": "cli.get_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_title",
+        "importPath": "cli.get_user_input",
+        "description": "cli.get_user_input",
+        "isExtraImport": true,
+        "detail": "cli.get_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "add_todo",
+        "importPath": "services.todo_service",
+        "description": "services.todo_service",
+        "isExtraImport": true,
+        "detail": "services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "change_status_todo",
+        "importPath": "services.todo_service",
+        "description": "services.todo_service",
+        "isExtraImport": true,
+        "detail": "services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "remove_todo",
+        "importPath": "services.todo_service",
+        "description": "services.todo_service",
+        "isExtraImport": true,
+        "detail": "services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "show_todos",
+        "importPath": "services.todo_service",
+        "description": "services.todo_service",
+        "isExtraImport": true,
+        "detail": "services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "show_todos",
+        "importPath": "services.todo_service",
+        "description": "services.todo_service",
+        "isExtraImport": true,
+        "detail": "services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "load_todo",
+        "importPath": "utils.file_handler",
+        "description": "utils.file_handler",
+        "isExtraImport": true,
+        "detail": "utils.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "save_todo",
+        "importPath": "utils.file_handler",
+        "description": "utils.file_handler",
+        "isExtraImport": true,
+        "detail": "utils.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "load_todo",
+        "importPath": "utils.file_handler",
+        "description": "utils.file_handler",
+        "isExtraImport": true,
+        "detail": "utils.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "JSONDecodeError",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "handle_add",
+        "importPath": "cli.handlers",
+        "description": "cli.handlers",
+        "isExtraImport": true,
+        "detail": "cli.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "handle_remove",
+        "importPath": "cli.handlers",
+        "description": "cli.handlers",
+        "isExtraImport": true,
+        "detail": "cli.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "handle_change_status",
+        "importPath": "cli.handlers",
+        "description": "cli.handlers",
+        "isExtraImport": true,
+        "detail": "cli.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "importPath": "cli.show_menu",
+        "description": "cli.show_menu",
+        "isExtraImport": true,
+        "detail": "cli.show_menu",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "calculator.custom_operator.divide",
+        "description": "calculator.custom_operator.divide",
+        "peekOfCode": "def divide(n1: float, n2: float) -> float:\n    check_for_zero_division(n2)\n    return n1 / n2",
+        "detail": "calculator.custom_operator.divide",
+        "documentation": {}
+    },
+    {
+        "label": "floor_divide",
+        "kind": 2,
+        "importPath": "calculator.custom_operator.floor_divide",
+        "description": "calculator.custom_operator.floor_divide",
+        "peekOfCode": "def floor_divide(n1: float, n2: float) -> float:\n    check_for_zero_division(n2)\n    return n1 // n2",
+        "detail": "calculator.custom_operator.floor_divide",
+        "documentation": {}
+    },
+    {
+        "label": "modulo",
+        "kind": 2,
+        "importPath": "calculator.custom_operator.modulo",
+        "description": "calculator.custom_operator.modulo",
+        "peekOfCode": "def modulo(n1: float, n2: float) -> float:\n    check_for_zero_division(n2)\n    return n1 % n2",
+        "detail": "calculator.custom_operator.modulo",
+        "documentation": {}
+    },
+    {
+        "label": "check_for_zero_division",
+        "kind": 2,
+        "importPath": "calculator.utils.check_for_zero_division",
+        "description": "calculator.utils.check_for_zero_division",
+        "peekOfCode": "def check_for_zero_division(number):\n    if number == 0:\n        raise ZeroDivisionError(\"Cannot divide by zero.\")",
+        "detail": "calculator.utils.check_for_zero_division",
+        "documentation": {}
+    },
+    {
+        "label": "display_result",
+        "kind": 2,
+        "importPath": "calculator.utils.display_result",
+        "description": "calculator.utils.display_result",
+        "peekOfCode": "def display_result(result: float) -> None:\n    print(f\"\\n Result: {result}\")",
+        "detail": "calculator.utils.display_result",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "calculator.utils.get_input",
+        "description": "calculator.utils.get_input",
+        "peekOfCode": "def get_input(prompt: str) -> float:\n    while True:\n        user_input = input(prompt).strip()\n        try:\n            return float(user_input)\n        except ValueError:\n            print(\"Invalid number. Try again.\")",
+        "detail": "calculator.utils.get_input",
+        "documentation": {}
+    },
+    {
+        "label": "get_operator",
+        "kind": 2,
+        "importPath": "calculator.utils.get_operator",
+        "description": "calculator.utils.get_operator",
+        "peekOfCode": "def get_operator() -> str:\n    valid_operators = {\"+\", \"-\", \"/\", \"*\", \"%\", \"//\", \"**\"}\n    while True:\n        user_operator = input(\"Enter operator (+, -, /, *, %, //, **): \").strip()\n        if user_operator in valid_operators:\n            return user_operator\n        print(\"Invalid operator. Try again.\")",
+        "detail": "calculator.utils.get_operator",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "calculator.main",
+        "description": "calculator.main",
+        "peekOfCode": "class Calculator:\n    def __init__(self):\n        self.history = []\n    def calc(self, num1: float, num2: float, operator: str) -> float:\n        operation = {\n            \"+\": lambda a, b: a + b,\n            \"-\": lambda a, b: a - b,\n            \"*\": lambda a, b: a * b,\n            \"**\": lambda a, b: a**b,\n            \"/\": divide,",
+        "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "calculator.main",
+        "description": "calculator.main",
+        "peekOfCode": "def main() -> None:\n    print(\"=== Calculator ===\\n\")\n    calculator = Calculator()\n    while True:\n        command = (\n            input(\"\\nPress Enter to continue, h to history or q to quit:\")\n            .strip()\n            .lower()\n        )\n        if command == \"q\":",
+        "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "guess_number.main",
+        "description": "guess_number.main",
+        "peekOfCode": "def main() -> None:\n    print(\"\\n== Guess Number Game! ==\")\n    secret_number = random.randint(0, 100)\n    try_count = 1\n    print(\"Hint\", secret_number)\n    while True:\n        try:\n            user_input = int(input(\"Enter a number between 0 to 100: \").strip())\n            if user_input > 100 or user_input < 0:\n                print(\"Wrong number, it should be between 0 to 100.\")",
+        "detail": "guess_number.main",
+        "documentation": {}
+    },
+    {
+        "label": "provide_hint",
+        "kind": 2,
+        "importPath": "number_guess.src.game_logic.hint_generator",
+        "description": "number_guess.src.game_logic.hint_generator",
+        "peekOfCode": "def provide_hint(guess: int, actual_number: int) -> None:\n    if guess > actual_number:\n        print(\"Your guess is too high.\")\n    elif guess < actual_number:\n        print(\"Your guess is too low.\")",
+        "detail": "number_guess.src.game_logic.hint_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_number",
+        "kind": 2,
+        "importPath": "number_guess.src.game_logic.number_generator",
+        "description": "number_guess.src.game_logic.number_generator",
+        "peekOfCode": "def generate_random_number(start: int, end: int) -> int:\n    \"\"\"Generate a random number between start and end, include start and end\"\"\"\n    return random.randint(start, end)",
+        "detail": "number_guess.src.game_logic.number_generator",
+        "documentation": {}
+    },
+    {
+        "label": "Score",
+        "kind": 6,
+        "importPath": "number_guess.src.game_logic.score",
+        "description": "number_guess.src.game_logic.score",
+        "peekOfCode": "class Score:\n    def __init__(self, initial_score: int) -> None:\n        self.score = initial_score\n    def decreas(self, penalty: int = 10) -> None:\n        \"\"\"Decrease score by a certain penalty\"\"\"\n        self.score -= penalty\n        self.score = max(0, self.score)\n    def get_score(self) -> int:\n        \"\"\"Return the current score.\"\"\"\n        return self.score",
+        "detail": "number_guess.src.game_logic.score",
+        "documentation": {}
+    },
+    {
+        "label": "get_valid_input",
+        "kind": 2,
+        "importPath": "number_guess.src.utils.input_validator",
+        "description": "number_guess.src.utils.input_validator",
+        "peekOfCode": "def get_valid_input(start: int, end: int) -> int:\n    while True:\n        try:\n            user_input = int(input(\"Enter a number: \").strip())\n            if start <= user_input <= end:\n                return user_input\n            else:\n                print(f\"Wrong input. Please wnter a number between {start} nad {end}.\")\n                continue\n        except ValueError:",
+        "detail": "number_guess.src.utils.input_validator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "number_guess.src.main",
+        "description": "number_guess.src.main",
+        "peekOfCode": "def main():\n    score = Score(100)\n    random_number = generate_random_number(1, 100)\n    while True:\n        user_input = get_valid_input(1, 100)\n        if user_input == random_number:\n            print(\"Correct!\")\n            print(f\"your score is {score.get_score()}\")\n            break\n        else:",
+        "detail": "number_guess.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "validate_input",
+        "kind": 2,
+        "importPath": "number_guesser.main",
+        "description": "number_guesser.main",
+        "peekOfCode": "def validate_input(user_input):\n    if not user_input.isdigit():\n        print(\"Invalid input please try again.\")\n        return False\n    user_input = int(user_input)\n    if user_input > 100 or user_input < 1:\n        print(\"Your guess is wront, it should be between 1 and 100.\")\n        return False\n    return True\ndef main():",
+        "detail": "number_guesser.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "number_guesser.main",
+        "description": "number_guesser.main",
+        "peekOfCode": "def main():\n    rand_num = random.randint(0, 100)\n    score = 100\n    print(rand_num)\n    while True:\n        user_guess = input(\"Guess a number between 1 and 100: \").strip()\n        if user_guess == \"q\":\n            print(\"Goodbye!\")\n            break\n        if not validate_input(user_guess):",
+        "detail": "number_guesser.main",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordGenerator",
+        "kind": 6,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "class PasswordGenerator(ABC):\n    @abstractmethod\n    def generate(self) -> str:\n        pass\nclass PinGenerator(PasswordGenerator):\n    def __init__(self, length: int):\n        self.length = length\n    def generate(self):\n        return \"\".join([random.choice(string.digits) for _ in range(self.length)])\nclass RandomPasswordGenerator(PasswordGenerator):",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "PinGenerator",
+        "kind": 6,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "class PinGenerator(PasswordGenerator):\n    def __init__(self, length: int):\n        self.length = length\n    def generate(self):\n        return \"\".join([random.choice(string.digits) for _ in range(self.length)])\nclass RandomPasswordGenerator(PasswordGenerator):\n    def __init__(\n        self, length: int, includes_number: bool = False, includes_symbol: bool = False\n    ):\n        self.length = length",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "RandomPasswordGenerator",
+        "kind": 6,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "class RandomPasswordGenerator(PasswordGenerator):\n    def __init__(\n        self, length: int, includes_number: bool = False, includes_symbol: bool = False\n    ):\n        self.length = length\n        self.choices = string.ascii_letters\n        if includes_symbol:\n            self.choices += string.punctuation\n        if includes_number:\n            self.choices += string.digits",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "MemorablePasswordGenerator",
+        "kind": 6,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "class MemorablePasswordGenerator(PasswordGenerator):\n    def __init__(\n        self, words_number: int, separator: str = \"-\", capitalize: bool = False\n    ):\n        self.slected_separator = separator\n        self.words_number = words_number\n        self.capitalize = capitalize\n        # self.separator_options = (\"-\", \".\", \"/\", \";\")\n    def generate(self):\n        choices = nltk.corpus.words.words()",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_pin",
+        "kind": 2,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "def test_pin():\n    pin_generator = PinGenerator(8)\n    password = pin_generator.generate()\n    print(password)\n    assert len(password) == 8\n    assert all(char in string.digits for char in password)\ndef test_random():\n    random_generator = RandomPasswordGenerator(\n        length=12, includes_symbol=True, includes_number=True\n    )",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_random",
+        "kind": 2,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "def test_random():\n    random_generator = RandomPasswordGenerator(\n        length=12, includes_symbol=True, includes_number=True\n    )\n    password = random_generator.generate()\n    print(password)\n    allowed = string.ascii_letters + string.digits + string.punctuation\n    assert len(password) == 12\n    assert all(c in allowed for c in password)\ndef memorable_random():",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "memorable_random",
+        "kind": 2,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "def memorable_random():\n    memorable_generator = MemorablePasswordGenerator(\n        words_number=5, separator=\"*\", capitalize=True\n    )\n    password = memorable_generator.generate()\n    print(password)\n    assert len(password.split(\"*\")) == 5\n    assert all(char[0].istitle() for char in password.split(\"*\"))\ndef main():\n    print(\"Testing pincode generator:\")",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "password_generator.src.main",
+        "description": "password_generator.src.main",
+        "peekOfCode": "def main():\n    print(\"Testing pincode generator:\")\n    test_pin()\n    print(\"Testing random password generator:\")\n    test_random()\n    print(\"Testing memorable password generator:\")\n    memorable_random()\nif __name__ == \"__main__\":\n    main()",
+        "detail": "password_generator.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "RockPaperScissors",
+        "kind": 6,
+        "importPath": "rock_paper_scissors.src.main",
+        "description": "rock_paper_scissors.src.main",
+        "peekOfCode": "class RockPaperScissors:\n    \"\"\"Main class for rock paper scissors game.\n    \"\"\"\n    def __init__(self, name: str) -> None:\n        self.choices = (\"rock\", \"paper\", \"scissors\")\n        self.name = name\n    def get_player_name(self) -> str:\n        \"\"\"Get computer choice randomly from choices: rock, paper, scissors.\n        Returns:\n            str: one of rock, paper or scissors",
+        "detail": "rock_paper_scissors.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "play_again",
+        "kind": 2,
+        "importPath": "rock_paper_scissors.src.main",
+        "description": "rock_paper_scissors.src.main",
+        "peekOfCode": "def play_again(name: str) -> bool:\n    play_again = (\n        input(f\"{name} do you want play again press Y and for quit press any key: \")\n        .strip()\n        .lower()\n    )\n    return play_again == \"y\"\ndef main() -> None:\n    game = RockPaperScissors(\"Amir\")\n    game.print_instructions()",
+        "detail": "rock_paper_scissors.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "rock_paper_scissors.src.main",
+        "description": "rock_paper_scissors.src.main",
+        "peekOfCode": "def main() -> None:\n    game = RockPaperScissors(\"Amir\")\n    game.print_instructions()\n    while True:\n        game.play()\n        if not play_again(game.get_player_name()):\n            print(\"Goodbye\")\n            break\nif __name__ == \"__main__\":\n    main()",
+        "detail": "rock_paper_scissors.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_id",
+        "kind": 2,
+        "importPath": "todoـcli.cli.get_user_input",
+        "description": "todoـcli.cli.get_user_input",
+        "peekOfCode": "def get_todo_id(prompt: str) -> int:\n    while True:\n        try:\n            return int(input(prompt).strip())\n        except ValueError:\n            print(\"Invalid id.\")\ndef get_todo_title(propmt: str) -> str:\n    while True:\n        title = input(propmt).strip()\n        if title:",
+        "detail": "todoـcli.cli.get_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_title",
+        "kind": 2,
+        "importPath": "todoـcli.cli.get_user_input",
+        "description": "todoـcli.cli.get_user_input",
+        "peekOfCode": "def get_todo_title(propmt: str) -> str:\n    while True:\n        title = input(propmt).strip()\n        if title:\n            return title\n        print(\"Title cannot be Empty.\")",
+        "detail": "todoـcli.cli.get_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "handle_add",
+        "kind": 2,
+        "importPath": "todoـcli.cli.handlers",
+        "description": "todoـcli.cli.handlers",
+        "peekOfCode": "def handle_add(todos: list[Todo], file_path: Path) -> None:\n    title = get_todo_title(\"Enter Todo title: \")\n    add_todo(todos, title)\n    save_todo(todos, file_path)\n    print(\"Todo added successfully.\")\ndef handle_remove(todos: list[Todo], file_path: Path) -> None:\n    try:\n        id = get_todo_id(\"Enter todo id to remove: \")\n        removed = remove_todo(todos, id)\n        if removed:",
+        "detail": "todoـcli.cli.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "handle_remove",
+        "kind": 2,
+        "importPath": "todoـcli.cli.handlers",
+        "description": "todoـcli.cli.handlers",
+        "peekOfCode": "def handle_remove(todos: list[Todo], file_path: Path) -> None:\n    try:\n        id = get_todo_id(\"Enter todo id to remove: \")\n        removed = remove_todo(todos, id)\n        if removed:\n            save_todo(todos, file_path)\n            print(\"Todo removed successfully\")\n        else:\n            print(\"Todo not found\")\n    except ValueError:",
+        "detail": "todoـcli.cli.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "handle_change_status",
+        "kind": 2,
+        "importPath": "todoـcli.cli.handlers",
+        "description": "todoـcli.cli.handlers",
+        "peekOfCode": "def handle_change_status(todos: list[Todo], file_path: Path) -> None:\n    try:\n        id = get_todo_id(\"Enter todo id to change status: \")\n        changed = change_status_todo(todos, id)\n        if changed:\n            save_todo(todos, file_path)\n            print(\"Todo status changed successfully.\")\n        else:\n            print(\"Todo not found.\")\n    except ValueError:",
+        "detail": "todoـcli.cli.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "kind": 2,
+        "importPath": "todoـcli.cli.show_menu",
+        "description": "todoـcli.cli.show_menu",
+        "peekOfCode": "def show_menu() -> None:\n    print(\"\\n=== Todo CLI ===\")\n    print(\"1. Add Todo\")\n    print(\"2. Show Todos\")\n    print(\"3. Remove Todo\")\n    print(\"4. Complete/Incomplete Todo\")\n    print(\"5. Exit\")",
+        "detail": "todoـcli.cli.show_menu",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "kind": 6,
+        "importPath": "todoـcli.models.todo",
+        "description": "todoـcli.models.todo",
+        "peekOfCode": "class Todo:\n    def __init__(self, id: int, title: str, completed: bool = False) -> None:\n        self.id = id\n        self.title = title\n        self.completed = completed\n    def mark_completed(self) -> None:\n        self.completed = True\n    def mark_incompleted(self) -> None:\n        self.completed = False\n    def __str__(self) -> str:",
+        "detail": "todoـcli.models.todo",
+        "documentation": {}
+    },
+    {
+        "label": "add_todo",
+        "kind": 2,
+        "importPath": "todoـcli.services.todo_service",
+        "description": "todoـcli.services.todo_service",
+        "peekOfCode": "def add_todo(todos: list[Todo], title: str) -> None:\n    id = 1\n    if todos:\n        id = max(t.id for t in todos) + 1\n    todos.append(Todo(id, title))\ndef remove_todo(todos: list[Todo], id: int) -> bool:\n    for t in todos:\n        if t.id == id:\n            todos.remove(t)\n            return True",
+        "detail": "todoـcli.services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "remove_todo",
+        "kind": 2,
+        "importPath": "todoـcli.services.todo_service",
+        "description": "todoـcli.services.todo_service",
+        "peekOfCode": "def remove_todo(todos: list[Todo], id: int) -> bool:\n    for t in todos:\n        if t.id == id:\n            todos.remove(t)\n            return True\n    return False\ndef change_status_todo(todos: list[Todo], id: int) -> bool:\n    for t in todos:\n        if t.id == id:\n            t.mark_completed() if not t.completed else t.mark_incompleted()",
+        "detail": "todoـcli.services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "change_status_todo",
+        "kind": 2,
+        "importPath": "todoـcli.services.todo_service",
+        "description": "todoـcli.services.todo_service",
+        "peekOfCode": "def change_status_todo(todos: list[Todo], id: int) -> bool:\n    for t in todos:\n        if t.id == id:\n            t.mark_completed() if not t.completed else t.mark_incompleted()\n            return True\n    return False\ndef show_todos(todos: list[Todo]) -> None:\n    if not todos:\n        print(\"No todos found.\")\n        return",
+        "detail": "todoـcli.services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "show_todos",
+        "kind": 2,
+        "importPath": "todoـcli.services.todo_service",
+        "description": "todoـcli.services.todo_service",
+        "peekOfCode": "def show_todos(todos: list[Todo]) -> None:\n    if not todos:\n        print(\"No todos found.\")\n        return\n    print(\"\\n=== Todos ===\")\n    for t in todos:\n        print(t)",
+        "detail": "todoـcli.services.todo_service",
+        "documentation": {}
+    },
+    {
+        "label": "load_todo",
+        "kind": 2,
+        "importPath": "todoـcli.utils.file_handler",
+        "description": "todoـcli.utils.file_handler",
+        "peekOfCode": "def load_todo(file_path: Path) -> list[Todo]:\n    try:\n        with open(file_path, \"r\") as file:\n            data = json.load(file)\n            return [Todo.from_dict(t) for t in data]\n    except (FileNotFoundError, JSONDecodeError):\n        return []\ndef save_todo(todos: list[Todo], file_path: Path) -> None:\n    with open(file_path, \"w\") as file:\n        json.dump([todo.to_dict() for todo in todos], file, indent=4)",
+        "detail": "todoـcli.utils.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "save_todo",
+        "kind": 2,
+        "importPath": "todoـcli.utils.file_handler",
+        "description": "todoـcli.utils.file_handler",
+        "peekOfCode": "def save_todo(todos: list[Todo], file_path: Path) -> None:\n    with open(file_path, \"w\") as file:\n        json.dump([todo.to_dict() for todo in todos], file, indent=4)",
+        "detail": "todoـcli.utils.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "todoـcli.main",
+        "description": "todoـcli.main",
+        "peekOfCode": "def main() -> None:\n    todos = load_todo(FILE_PATH)\n    while True:\n        show_menu()\n        choice = input(\"\\nSelect an option: \").strip()\n        if choice == \"1\":\n            handle_add(todos, FILE_PATH)\n        elif choice == \"2\":\n            show_todos(todos)\n        elif choice == \"3\":",
+        "detail": "todoـcli.main",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "todoـcli.main",
+        "description": "todoـcli.main",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\nFILE_PATH = BASE_DIR / \"data\" / \"todos.json\"\ndef main() -> None:\n    todos = load_todo(FILE_PATH)\n    while True:\n        show_menu()\n        choice = input(\"\\nSelect an option: \").strip()\n        if choice == \"1\":\n            handle_add(todos, FILE_PATH)\n        elif choice == \"2\":",
+        "detail": "todoـcli.main",
+        "documentation": {}
+    },
+    {
+        "label": "FILE_PATH",
+        "kind": 5,
+        "importPath": "todoـcli.main",
+        "description": "todoـcli.main",
+        "peekOfCode": "FILE_PATH = BASE_DIR / \"data\" / \"todos.json\"\ndef main() -> None:\n    todos = load_todo(FILE_PATH)\n    while True:\n        show_menu()\n        choice = input(\"\\nSelect an option: \").strip()\n        if choice == \"1\":\n            handle_add(todos, FILE_PATH)\n        elif choice == \"2\":\n            show_todos(todos)",
+        "detail": "todoـcli.main",
+        "documentation": {}
+    }
+]
