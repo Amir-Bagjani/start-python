@@ -72,12 +72,135 @@
         "documentation": {}
     },
     {
+        "label": "PrettyTable",
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "isExtraImport": true,
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NotRequired",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_choice",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ContactBook",
+        "importPath": "src.model.contact",
+        "description": "src.model.contact",
+        "isExtraImport": true,
+        "detail": "src.model.contact",
+        "documentation": {}
+    },
+    {
+        "label": "ContactBook",
+        "importPath": "src.model.contact",
+        "description": "src.model.contact",
+        "isExtraImport": true,
+        "detail": "src.model.contact",
+        "documentation": {}
+    },
+    {
+        "label": "delete_service",
+        "importPath": "src.services.services",
+        "description": "src.services.services",
+        "isExtraImport": true,
+        "detail": "src.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "update_service",
+        "importPath": "src.services.services",
+        "description": "src.services.services",
+        "isExtraImport": true,
+        "detail": "src.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "add_service",
+        "importPath": "src.services.services",
+        "description": "src.services.services",
+        "isExtraImport": true,
+        "detail": "src.services.services",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_game",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
         "documentation": {}
     },
     {
@@ -144,15 +267,6 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "streamlit",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "streamlit",
-        "description": "streamlit",
-        "detail": "streamlit",
         "documentation": {}
     },
     {
@@ -438,6 +552,78 @@
         "documentation": {}
     },
     {
+        "label": "ContactData",
+        "kind": 6,
+        "importPath": "contact_book.src.model.contact",
+        "description": "contact_book.src.model.contact",
+        "peekOfCode": "class ContactData(TypedDict):\n    phone: str\n    email: NotRequired[str]\nclass ContactBook:\n    \"\"\"A simple in-memory contact book for storing and managing contacts.\"\"\"\n    def __init__(self):\n        \"\"\"Initialize an empty contact book.\"\"\"\n        self.contacts: dict[str, ContactData] = {}\n    def add_contact(self, name: str, phone: str, email: str | None = None):\n        \"\"\"",
+        "detail": "contact_book.src.model.contact",
+        "documentation": {}
+    },
+    {
+        "label": "ContactBook",
+        "kind": 6,
+        "importPath": "contact_book.src.model.contact",
+        "description": "contact_book.src.model.contact",
+        "peekOfCode": "class ContactBook:\n    \"\"\"A simple in-memory contact book for storing and managing contacts.\"\"\"\n    def __init__(self):\n        \"\"\"Initialize an empty contact book.\"\"\"\n        self.contacts: dict[str, ContactData] = {}\n    def add_contact(self, name: str, phone: str, email: str | None = None):\n        \"\"\"\n        Add a new contact to the contact book.\n        Args:\n            name: The contact's name.",
+        "detail": "contact_book.src.model.contact",
+        "documentation": {}
+    },
+    {
+        "label": "delete_service",
+        "kind": 2,
+        "importPath": "contact_book.src.services.services",
+        "description": "contact_book.src.services.services",
+        "peekOfCode": "def delete_service(book: ContactBook):\n    \"\"\"\n    Prompt the user for a contact name and delete the contact if provided.\n    Args:\n        book: The contact book instance.\n    Returns:\n        None.\n    \"\"\"\n    remove_name = get_user_choice(\"\\nEnter the name of contact to delete: \")\n    if remove_name:",
+        "detail": "contact_book.src.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "update_service",
+        "kind": 2,
+        "importPath": "contact_book.src.services.services",
+        "description": "contact_book.src.services.services",
+        "peekOfCode": "def update_service(book: ContactBook):\n    \"\"\"\n    Prompt the user for updated contact information and apply the changes.\n    The user can skip updating individual fields by entering 'n' or cancel\n    the operation when prompted for the contact name.\n    Args:\n        book: The contact book instance.\n    Returns:\n        \"continue\" if the operation is canceled; otherwise None.\n    \"\"\"",
+        "detail": "contact_book.src.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "add_service",
+        "kind": 2,
+        "importPath": "contact_book.src.services.services",
+        "description": "contact_book.src.services.services",
+        "peekOfCode": "def add_service(book: ContactBook):\n    \"\"\"\n    Prompt the user for contact information and add a new contact.\n    The operation is canceled if the user quits while entering a required\n    field.\n    Args:\n        book: The contact book instance.\n    Returns:\n        \"continue\" if the operation is canceled; otherwise None.\n    \"\"\"",
+        "detail": "contact_book.src.services.services",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "kind": 2,
+        "importPath": "contact_book.src.utils.utils",
+        "description": "contact_book.src.utils.utils",
+        "peekOfCode": "def show_menu():\n    \"\"\"\n    Display the application's main menu.\n    Returns:\n        None.\n    \"\"\"\n    print(\"\\nWelcome to contact book application!\")\n    print(\"1. Add contact\")\n    print(\"2. Edit contact\")\n    print(\"3. View contacts\")",
+        "detail": "contact_book.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_choice",
+        "kind": 2,
+        "importPath": "contact_book.src.utils.utils",
+        "description": "contact_book.src.utils.utils",
+        "peekOfCode": "def get_user_choice(prompt: str, required: bool = False):\n    \"\"\"\n    Prompt the user for input.\n    The user may enter 'q' to cancel the operation. If the input is required,\n    the prompt is repeated until a non-empty value is entered or the user\n    cancels.\n    Args:\n        prompt: The message displayed to the user.\n        required: Whether a non-empty value is required.\n    Returns:",
+        "detail": "contact_book.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "contact_book.src.main",
+        "description": "contact_book.src.main",
+        "peekOfCode": "def main():\n    show_menu()\n    book = ContactBook()\n    while True:\n        user_choice = input(\"\\nPlease choose an option (5 to show menu): \").strip()\n        if user_choice == \"6\":\n            print(\"Goodbye\")\n            break\n        elif user_choice == \"5\":\n            show_menu()",
+        "detail": "contact_book.src.main",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "guess_number.main",
@@ -462,6 +648,96 @@
         "description": "happy_numbers.src.main",
         "peekOfCode": "number = 45\ndef happy_number(number: int) -> bool:\n    seen_number = set()\n    while (number != 1) and (number not in seen_number):\n        seen_number.add(number)\n        number = sum([int(n) ** 2 for n in str(number)])\n    return number == 1\nif __name__ == \"__main__\":\n    while True:\n        try:",
         "detail": "happy_numbers.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "num_game",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "num_game = st.number_input(\n    \"Enter number of games to simulate\",\n    min_value=10,\n    max_value=100000,\n    value=100,\n    step=10,\n)\ncol1, col2 = st.columns(2)\ncol1.subheader(\"Win percent (No Switch)\")\ncol2.subheader(\"Win percent (Switch)\")",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "chart1",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "chart1 = col1.empty()\nchart2 = col2.empty()\nwins_switch = 0\nwins_not_switch = 0\ndata1 = []\ndata2 = []\nfor i in range(num_game):\n    not_switch, switch = simulate_game(1)\n    wins_switch += switch\n    wins_not_switch += not_switch",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "chart2",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "chart2 = col2.empty()\nwins_switch = 0\nwins_not_switch = 0\ndata1 = []\ndata2 = []\nfor i in range(num_game):\n    not_switch, switch = simulate_game(1)\n    wins_switch += switch\n    wins_not_switch += not_switch\n    data1.append(wins_not_switch / (i + 1))",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "wins_switch",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "wins_switch = 0\nwins_not_switch = 0\ndata1 = []\ndata2 = []\nfor i in range(num_game):\n    not_switch, switch = simulate_game(1)\n    wins_switch += switch\n    wins_not_switch += not_switch\n    data1.append(wins_not_switch / (i + 1))\n    data2.append(wins_switch / (i + 1))",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "wins_not_switch",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "wins_not_switch = 0\ndata1 = []\ndata2 = []\nfor i in range(num_game):\n    not_switch, switch = simulate_game(1)\n    wins_switch += switch\n    wins_not_switch += not_switch\n    data1.append(wins_not_switch / (i + 1))\n    data2.append(wins_switch / (i + 1))\n    chart1.line_chart(pd.DataFrame(data1, columns=[\"No Switch\"]))",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "data1",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "data1 = []\ndata2 = []\nfor i in range(num_game):\n    not_switch, switch = simulate_game(1)\n    wins_switch += switch\n    wins_not_switch += not_switch\n    data1.append(wins_not_switch / (i + 1))\n    data2.append(wins_switch / (i + 1))\n    chart1.line_chart(pd.DataFrame(data1, columns=[\"No Switch\"]))\n    chart2.line_chart(pd.DataFrame(data2, columns=[\"Switch\"]))",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "data2",
+        "kind": 5,
+        "importPath": "monty_hall.src.dashboard",
+        "description": "monty_hall.src.dashboard",
+        "peekOfCode": "data2 = []\nfor i in range(num_game):\n    not_switch, switch = simulate_game(1)\n    wins_switch += switch\n    wins_not_switch += not_switch\n    data1.append(wins_not_switch / (i + 1))\n    data2.append(wins_switch / (i + 1))\n    chart1.line_chart(pd.DataFrame(data1, columns=[\"No Switch\"]))\n    chart2.line_chart(pd.DataFrame(data2, columns=[\"Switch\"]))\n    time.sleep(0.01)",
+        "detail": "monty_hall.src.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "monty_hall",
+        "kind": 2,
+        "importPath": "monty_hall.src.main",
+        "description": "monty_hall.src.main",
+        "peekOfCode": "def monty_hall(switch: bool = False) -> bool:\n    \"\"\"\n    Simulate a single Monty Hall game.\n    The player randomly selects one of three doors. One door hides a car\n    and the other two hide goats. If ``switch`` is True, the player\n    switches to the remaining unopened door after Monty reveals a goat.\n    Args:\n        switch (bool, optional): Whether the player switches their choice.\n            Defaults to False.\n    Returns:",
+        "detail": "monty_hall.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "simulate_game",
+        "kind": 2,
+        "importPath": "monty_hall.src.main",
+        "description": "monty_hall.src.main",
+        "peekOfCode": "def simulate_game(num_games: int) -> Tuple[int, int]:\n    \"\"\"\n    Simulate one or more Monty Hall games.\n    Args:\n        num_games (int): Number of games to simulate.\n    Returns:\n        tuple[int, int]:\n            A tuple containing:\n            - wins_without_switch (int): Number of wins when the player does not switch.\n            - wins_with_switch (int): Number of wins when the player switches.",
+        "detail": "monty_hall.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "monty_hall.src.main",
+        "description": "monty_hall.src.main",
+        "peekOfCode": "def main():\n    print(simulate_game(1000))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "monty_hall.src.main",
         "documentation": {}
     },
     {
