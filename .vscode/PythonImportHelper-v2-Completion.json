@@ -104,6 +104,14 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "get_user_choice",
         "importPath": "src.utils.utils",
         "description": "src.utils.utils",
@@ -318,6 +326,14 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Todo",
         "importPath": "models.todo",
         "description": "models.todo",
@@ -468,6 +484,31 @@
         "description": "cli.show_menu",
         "isExtraImport": true,
         "detail": "cli.show_menu",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
         "documentation": {}
     },
     {
@@ -1071,6 +1112,24 @@
         "description": "todoـcli.main",
         "peekOfCode": "FILE_PATH = BASE_DIR / \"data\" / \"todos.json\"\ndef main() -> None:\n    todos = load_todo(FILE_PATH)\n    while True:\n        show_menu()\n        choice = input(\"\\nSelect an option: \").strip()\n        if choice == \"1\":\n            handle_add(todos, FILE_PATH)\n        elif choice == \"2\":\n            show_todos(todos)",
         "detail": "todoـcli.main",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeDownloader",
+        "kind": 6,
+        "importPath": "youtube_downloader.src.main",
+        "description": "youtube_downloader.src.main",
+        "peekOfCode": "class YoutubeDownloader:\n    \"\"\"\n    Download YouTube videos using pytube.\n    The downloader supports downloading either the highest available\n    progressive MP4 stream or a user-specified resolution.\n    Attributes:\n        url:\n            The YouTube video URL.\n        output_path:\n            Directory where downloaded videos are saved.",
+        "detail": "youtube_downloader.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "youtube_downloader.src.test",
+        "description": "youtube_downloader.src.test",
+        "peekOfCode": "def main(url, quality, file_path):\n    print(url, quality, file_path)",
+        "detail": "youtube_downloader.src.test",
         "documentation": {}
     }
 ]
