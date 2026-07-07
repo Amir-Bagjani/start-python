@@ -96,6 +96,22 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Tuple",
         "importPath": "typing",
         "description": "typing",
@@ -113,6 +129,38 @@
     },
     {
         "label": "get_user_choice",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_choice",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_amount",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_last_update",
         "importPath": "src.utils.utils",
         "description": "src.utils.utils",
         "isExtraImport": true,
@@ -168,12 +216,68 @@
         "documentation": {}
     },
     {
-        "label": "random",
+        "label": "get_exchange_rate",
+        "importPath": "src.service.currency",
+        "description": "src.service.currency",
+        "isExtraImport": true,
+        "detail": "src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "convert_currency",
+        "importPath": "src.service.currency",
+        "description": "src.service.currency",
+        "isExtraImport": true,
+        "detail": "src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "get_exchange_rate",
+        "importPath": "src.service.currency",
+        "description": "src.service.currency",
+        "isExtraImport": true,
+        "detail": "src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "convert_currency",
+        "importPath": "src.service.currency",
+        "description": "src.service.currency",
+        "isExtraImport": true,
+        "detail": "src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "cached",
+        "importPath": "cachetools",
+        "description": "cachetools",
+        "isExtraImport": true,
+        "detail": "cachetools",
+        "documentation": {}
+    },
+    {
+        "label": "TTLCache",
+        "importPath": "cachetools",
+        "description": "cachetools",
+        "isExtraImport": true,
+        "detail": "cachetools",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -183,6 +287,31 @@
         "importPath": "streamlit",
         "description": "streamlit",
         "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "CURRENCIES",
+        "importPath": "src.utils.constants",
+        "description": "src.utils.constants",
+        "isExtraImport": true,
+        "detail": "src.utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "convert_handler",
+        "importPath": "src.handler.currency",
+        "description": "src.handler.currency",
+        "isExtraImport": true,
+        "detail": "src.handler.currency",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
         "documentation": {}
     },
     {
@@ -241,6 +370,30 @@
         "description": "src.game_logic.hint_generator",
         "isExtraImport": true,
         "detail": "src.game_logic.hint_generator",
+        "documentation": {}
+    },
+    {
+        "label": "SCALES",
+        "importPath": "src.constants",
+        "description": "src.constants",
+        "isExtraImport": true,
+        "detail": "src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "TENS",
+        "importPath": "src.constants",
+        "description": "src.constants",
+        "isExtraImport": true,
+        "detail": "src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "UNDER_20",
+        "importPath": "src.constants",
+        "description": "src.constants",
+        "isExtraImport": true,
+        "detail": "src.constants",
         "documentation": {}
     },
     {
@@ -665,6 +818,159 @@
         "documentation": {}
     },
     {
+        "label": "convert_handler",
+        "kind": 2,
+        "importPath": "currency_converter.src.handler.currency",
+        "description": "currency_converter.src.handler.currency",
+        "peekOfCode": "def convert_handler():\n    source_currency = get_user_choice(\"\\nPlease enter the base currency (q to quit): \")\n    if source_currency is None:\n        print(\"Goodbye\")\n        return \"break\"\n    target_currency = get_user_choice(\n        \"\\nPlease enter the target currency (q to quit): \"\n    )\n    if target_currency is None:\n        print(\"Goodbye\")",
+        "detail": "currency_converter.src.handler.currency",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "kind": 6,
+        "importPath": "currency_converter.src.models.cache",
+        "description": "currency_converter.src.models.cache",
+        "peekOfCode": "class Cache:\n    def __init__(self):\n        self._cache = {}\n    def has(self, key: str):\n        return key in self._cache\n    def add(self, key: str, value: Any):\n        self._cache[key] = value\n    def get(self, key: str):\n        return self._cache.get(key, None)",
+        "detail": "currency_converter.src.models.cache",
+        "documentation": {}
+    },
+    {
+        "label": "get_exchange_rate",
+        "kind": 2,
+        "importPath": "currency_converter.src.service.currency",
+        "description": "currency_converter.src.service.currency",
+        "peekOfCode": "def get_exchange_rate(\n    base_currency: str,\n    target_currency: str,\n) -> Optional[float]:\n    url = \"https://api.exchangerate-api.com/v4/latest/\" + base_currency\n    try:\n        res = requests.get(url).json()\n        return float(res[\"rates\"][target_currency])\n    except Exception as error:\n        print(error)",
+        "detail": "currency_converter.src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "convert_currency",
+        "kind": 2,
+        "importPath": "currency_converter.src.service.currency",
+        "description": "currency_converter.src.service.currency",
+        "peekOfCode": "def convert_currency(amount: float, rate: float) -> float:\n    return amount * rate",
+        "detail": "currency_converter.src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "ttl_cache",
+        "kind": 5,
+        "importPath": "currency_converter.src.service.currency",
+        "description": "currency_converter.src.service.currency",
+        "peekOfCode": "ttl_cache = TTLCache(maxsize=100, ttl=300)\n@cached(ttl_cache)\ndef get_exchange_rate(\n    base_currency: str,\n    target_currency: str,\n) -> Optional[float]:\n    url = \"https://api.exchangerate-api.com/v4/latest/\" + base_currency\n    try:\n        res = requests.get(url).json()\n        return float(res[\"rates\"][target_currency])",
+        "detail": "currency_converter.src.service.currency",
+        "documentation": {}
+    },
+    {
+        "label": "CURRENCIES",
+        "kind": 5,
+        "importPath": "currency_converter.src.utils.constants",
+        "description": "currency_converter.src.utils.constants",
+        "peekOfCode": "CURRENCIES = (\n    \"USD\",\n    \"AED\",\n    \"AFN\",\n    \"ALL\",\n    \"AMD\",\n    \"ANG\",\n    \"AOA\",\n    \"ARS\",\n    \"AUD\",",
+        "detail": "currency_converter.src.utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "last_update",
+        "kind": 2,
+        "importPath": "currency_converter.src.utils.utils",
+        "description": "currency_converter.src.utils.utils",
+        "peekOfCode": "def last_update(time: int):\n    last = datetime.fromtimestamp(time)\n    now = datetime.now()\n    delta = now - last\n    second = int(delta.total_seconds())\n    if second < 60:\n        return f\"{second} seconds ago.\"\n    elif second < 3600:\n        return f\"{second // 60} minutes ago.\"\n    elif second < 86400:",
+        "detail": "currency_converter.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_last_update",
+        "kind": 2,
+        "importPath": "currency_converter.src.utils.utils",
+        "description": "currency_converter.src.utils.utils",
+        "peekOfCode": "def get_last_update(currency: str):\n    return 12750044\ndef show_menu():\n    print(\"\\nWellcome to Currnecy converter\")\n    print(\"1. Convert currencies\")\n    print(\"2. Exit\")\ndef get_user_choice(prompt: str):\n    choice = input(prompt).strip()\n    if choice == \"q\":\n        return None",
+        "detail": "currency_converter.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "kind": 2,
+        "importPath": "currency_converter.src.utils.utils",
+        "description": "currency_converter.src.utils.utils",
+        "peekOfCode": "def show_menu():\n    print(\"\\nWellcome to Currnecy converter\")\n    print(\"1. Convert currencies\")\n    print(\"2. Exit\")\ndef get_user_choice(prompt: str):\n    choice = input(prompt).strip()\n    if choice == \"q\":\n        return None\n    else:\n        return choice",
+        "detail": "currency_converter.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_choice",
+        "kind": 2,
+        "importPath": "currency_converter.src.utils.utils",
+        "description": "currency_converter.src.utils.utils",
+        "peekOfCode": "def get_user_choice(prompt: str):\n    choice = input(prompt).strip()\n    if choice == \"q\":\n        return None\n    else:\n        return choice\ndef get_user_amount(prompt: str):\n    while True:\n        try:\n            choice = float(input(prompt).strip())",
+        "detail": "currency_converter.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_amount",
+        "kind": 2,
+        "importPath": "currency_converter.src.utils.utils",
+        "description": "currency_converter.src.utils.utils",
+        "peekOfCode": "def get_user_amount(prompt: str):\n    while True:\n        try:\n            choice = float(input(prompt).strip())\n            if choice == \"q\":\n                return None\n            else:\n                return choice\n        except ValueError:\n            print(\"Wrong amount!!. try again\")",
+        "detail": "currency_converter.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "from_currency",
+        "kind": 5,
+        "importPath": "currency_converter.src.app",
+        "description": "currency_converter.src.app",
+        "peekOfCode": "from_currency = st.selectbox(\"from currency: \", CURRENCIES)\ntarget_currency = st.selectbox(\"target currency: \", CURRENCIES)\namount = st.number_input(\"amount to convert\", min_value=0.0, step=0.1)\nrate = get_exchange_rate(from_currency, target_currency)\ntime_ago = get_last_update(from_currency)\nif rate is None:\n    st.error(\"Exchange rate not found\")\nelse:\n    convert_amount = convert_currency(amount, rate)\n    st.success(f\"Exchange rate: {rate} (Last updated: {time_ago})\", icon=\"✅\")",
+        "detail": "currency_converter.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "target_currency",
+        "kind": 5,
+        "importPath": "currency_converter.src.app",
+        "description": "currency_converter.src.app",
+        "peekOfCode": "target_currency = st.selectbox(\"target currency: \", CURRENCIES)\namount = st.number_input(\"amount to convert\", min_value=0.0, step=0.1)\nrate = get_exchange_rate(from_currency, target_currency)\ntime_ago = get_last_update(from_currency)\nif rate is None:\n    st.error(\"Exchange rate not found\")\nelse:\n    convert_amount = convert_currency(amount, rate)\n    st.success(f\"Exchange rate: {rate} (Last updated: {time_ago})\", icon=\"✅\")\n    c1, c2, c3 = st.columns(3)",
+        "detail": "currency_converter.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "amount",
+        "kind": 5,
+        "importPath": "currency_converter.src.app",
+        "description": "currency_converter.src.app",
+        "peekOfCode": "amount = st.number_input(\"amount to convert\", min_value=0.0, step=0.1)\nrate = get_exchange_rate(from_currency, target_currency)\ntime_ago = get_last_update(from_currency)\nif rate is None:\n    st.error(\"Exchange rate not found\")\nelse:\n    convert_amount = convert_currency(amount, rate)\n    st.success(f\"Exchange rate: {rate} (Last updated: {time_ago})\", icon=\"✅\")\n    c1, c2, c3 = st.columns(3)\n    c1.metric(\"Base Currency\", f\"{amount:.2f} {from_currency}\")",
+        "detail": "currency_converter.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "rate",
+        "kind": 5,
+        "importPath": "currency_converter.src.app",
+        "description": "currency_converter.src.app",
+        "peekOfCode": "rate = get_exchange_rate(from_currency, target_currency)\ntime_ago = get_last_update(from_currency)\nif rate is None:\n    st.error(\"Exchange rate not found\")\nelse:\n    convert_amount = convert_currency(amount, rate)\n    st.success(f\"Exchange rate: {rate} (Last updated: {time_ago})\", icon=\"✅\")\n    c1, c2, c3 = st.columns(3)\n    c1.metric(\"Base Currency\", f\"{amount:.2f} {from_currency}\")\n    c2.metric(\"\", \"→\")",
+        "detail": "currency_converter.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "time_ago",
+        "kind": 5,
+        "importPath": "currency_converter.src.app",
+        "description": "currency_converter.src.app",
+        "peekOfCode": "time_ago = get_last_update(from_currency)\nif rate is None:\n    st.error(\"Exchange rate not found\")\nelse:\n    convert_amount = convert_currency(amount, rate)\n    st.success(f\"Exchange rate: {rate} (Last updated: {time_ago})\", icon=\"✅\")\n    c1, c2, c3 = st.columns(3)\n    c1.metric(\"Base Currency\", f\"{amount:.2f} {from_currency}\")\n    c2.metric(\"\", \"→\")\n    c3.metric(\"Target Currency\", f\"{convert_amount:.2f} {target_currency}\")",
+        "detail": "currency_converter.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "currency_converter.src.main",
+        "description": "currency_converter.src.main",
+        "peekOfCode": "def main():\n    show_menu()\n    while True:\n        select_choice = input(\"\\nPlease choose an option(3 for show menu): \").strip()\n        if select_choice == \"3\":\n            show_menu()\n        elif select_choice == \"2\":\n            print(\"Goodbye\")\n            break\n        elif select_choice == \"1\":",
+        "detail": "currency_converter.src.main",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "guess_number.main",
@@ -842,6 +1148,51 @@
         "description": "number_guesser.main",
         "peekOfCode": "def main():\n    rand_num = random.randint(0, 100)\n    score = 100\n    print(rand_num)\n    while True:\n        user_guess = input(\"Guess a number between 1 and 100: \").strip()\n        if user_guess == \"q\":\n            print(\"Goodbye!\")\n            break\n        if not validate_input(user_guess):",
         "detail": "number_guesser.main",
+        "documentation": {}
+    },
+    {
+        "label": "UNDER_20",
+        "kind": 5,
+        "importPath": "number_to_word.src.constants",
+        "description": "number_to_word.src.constants",
+        "peekOfCode": "UNDER_20 = [\n    \"zero\",\n    \"one\",\n    \"two\",\n    \"three\",\n    \"four\",\n    \"five\",\n    \"six\",\n    \"seven\",\n    \"eight\",",
+        "detail": "number_to_word.src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "TENS",
+        "kind": 5,
+        "importPath": "number_to_word.src.constants",
+        "description": "number_to_word.src.constants",
+        "peekOfCode": "TENS = [\n    \"\",\n    \"\",\n    \"twenty\",\n    \"thirty\",\n    \"forty\",\n    \"fifty\",\n    \"sixty\",\n    \"seventy\",\n    \"eighty\",",
+        "detail": "number_to_word.src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "SCALES",
+        "kind": 5,
+        "importPath": "number_to_word.src.constants",
+        "description": "number_to_word.src.constants",
+        "peekOfCode": "SCALES = {\n    100: \"hundred\",\n    1_000: \"thousand\",\n    1_000_000: \"million\",\n    1_000_000_000: \"billion\",\n    1_000_000_000_000: \"trillion\",\n    1_000_000_000_000_000: \"quadrillion\",\n    1_000_000_000_000_000_000: \"quintillion\",\n}",
+        "detail": "number_to_word.src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "number_to_word",
+        "kind": 2,
+        "importPath": "number_to_word.src.main",
+        "description": "number_to_word.src.main",
+        "peekOfCode": "def number_to_word(n: int) -> str:\n    \"\"\"\n    Convert a non-negative integer to its English word representation.\n    The function supports numbers recursively by breaking them into\n    groups such as hundreds, thousands, millions, and larger scales.\n    Args:\n        n: A non-negative integer to convert.\n    Returns:\n        The English word representation of `n`.\n    Raises:",
+        "detail": "number_to_word.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "number_to_word.src.main",
+        "description": "number_to_word.src.main",
+        "peekOfCode": "def main():\n    print(number_to_word(28))\n    print(number_to_word(1_000_001))\nif __name__ == \"__main__\":\n    main()",
+        "detail": "number_to_word.src.main",
         "documentation": {}
     },
     {
