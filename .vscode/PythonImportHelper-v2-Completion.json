@@ -72,6 +72,130 @@
         "documentation": {}
     },
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "JSONDecodeError",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_choice",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_choice",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_amount",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_last_update",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "show_menu",
+        "importPath": "src.utils.utils",
+        "description": "src.utils.utils",
+        "isExtraImport": true,
+        "detail": "src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "as_completed",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
         "label": "PrettyTable",
         "importPath": "prettytable",
         "description": "prettytable",
@@ -125,54 +249,6 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_choice",
-        "importPath": "src.utils.utils",
-        "description": "src.utils.utils",
-        "isExtraImport": true,
-        "detail": "src.utils.utils",
-        "documentation": {}
-    },
-    {
-        "label": "show_menu",
-        "importPath": "src.utils.utils",
-        "description": "src.utils.utils",
-        "isExtraImport": true,
-        "detail": "src.utils.utils",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_choice",
-        "importPath": "src.utils.utils",
-        "description": "src.utils.utils",
-        "isExtraImport": true,
-        "detail": "src.utils.utils",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_amount",
-        "importPath": "src.utils.utils",
-        "description": "src.utils.utils",
-        "isExtraImport": true,
-        "detail": "src.utils.utils",
-        "documentation": {}
-    },
-    {
-        "label": "get_last_update",
-        "importPath": "src.utils.utils",
-        "description": "src.utils.utils",
-        "isExtraImport": true,
-        "detail": "src.utils.utils",
-        "documentation": {}
-    },
-    {
-        "label": "show_menu",
-        "importPath": "src.utils.utils",
-        "description": "src.utils.utils",
-        "isExtraImport": true,
-        "detail": "src.utils.utils",
         "documentation": {}
     },
     {
@@ -248,15 +324,6 @@
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
         "label": "cached",
         "importPath": "cachetools",
         "description": "cachetools",
@@ -278,15 +345,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "streamlit",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "streamlit",
-        "description": "streamlit",
-        "detail": "streamlit",
         "documentation": {}
     },
     {
@@ -591,23 +649,6 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "JSONDecodeError",
-        "importPath": "json",
-        "description": "json",
-        "isExtraImport": true,
-        "detail": "json",
-        "documentation": {}
-    },
-    {
         "label": "handle_add",
         "importPath": "cli.handlers",
         "description": "cli.handlers",
@@ -743,6 +784,60 @@
         "description": "calculator.main",
         "peekOfCode": "def main() -> None:\n    print(\"=== Calculator ===\\n\")\n    calculator = Calculator()\n    while True:\n        command = (\n            input(\"\\nPress Enter to continue, h to history or q to quit:\")\n            .strip()\n            .lower()\n        )\n        if command == \"q\":",
         "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "chat_bot.src.utils.utils",
+        "description": "chat_bot.src.utils.utils",
+        "peekOfCode": "def chat(prompt: str):\n    try:\n        res = requests.post(\n            url=\"http://localhost:11434/api/chat\",\n            headers={\"Content-Type\": \"application/json\"},\n            data=json.dumps(\n                {\n                    \"model\": \"minimax-m3:cloud\",\n                    \"messages\": [{\"role\": \"user\", \"content\": prompt}],\n                    \"stream\": False,",
+        "detail": "chat_bot.src.utils.utils",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "chat_bot.src.main",
+        "description": "chat_bot.src.main",
+        "peekOfCode": "def main():\n    while True:\n        prompt = input(\"\\nSay somthing to your Khadang AI: \").strip()\n        print(f\"\\n{chat(prompt)}\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "chat_bot.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "check_site_availabilty",
+        "kind": 2,
+        "importPath": "check_online.src.main",
+        "description": "check_online.src.main",
+        "peekOfCode": "def check_site_availabilty(url):\n    try:\n        res = session.get(url, timeout=10)\n        return {\"url\": url, \"availability\": res.status_code == 200}\n    except requests.exceptions.RequestException as e:\n        return {\"url\": url, \"availability\": False}\ndef main():\n    # with ThreadPoolExecutor(max_workers=5) as executor:\n    #     for res in executor.map(check_site_availabilty, WEBSITES):\n    #         print(res)",
+        "detail": "check_online.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "check_online.src.main",
+        "description": "check_online.src.main",
+        "peekOfCode": "def main():\n    # with ThreadPoolExecutor(max_workers=5) as executor:\n    #     for res in executor.map(check_site_availabilty, WEBSITES):\n    #         print(res)\n    with ThreadPoolExecutor(max_workers=50) as executor:\n        futures = [executor.submit(check_site_availabilty, url) for url in WEBSITES]\n        for future in as_completed(futures):\n            print(future.result())\nif __name__ == \"__main__\":\n    main()",
+        "detail": "check_online.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "WEBSITES",
+        "kind": 5,
+        "importPath": "check_online.src.main",
+        "description": "check_online.src.main",
+        "peekOfCode": "WEBSITES = [\n    \"https://example.com\",\n    \"https://httpbin.org\",\n    \"https://www.python.org\",\n    \"https://github.com\",\n    \"https://stackoverflow.com\",\n    \"https://news.ycombinator.com\",\n    \"https://www.wikipedia.org\",\n    \"https://www.reddit.com\",\n    \"https://www.bbc.com\",",
+        "detail": "check_online.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "check_online.src.main",
+        "description": "check_online.src.main",
+        "peekOfCode": "session = requests.Session()\nsession.headers.update(\n    {\n        \"User-Agent\": (\n            \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) \"\n            \"AppleWebKit/537.36 (KHTML, like Gecko) \"\n            \"Chrome/138.0.0.0 Safari/537.36\"\n        ),\n        \"Accept\": (\n            \"text/html,application/xhtml+xml,application/xml;q=0.9,\"",
+        "detail": "check_online.src.main",
         "documentation": {}
     },
     {
