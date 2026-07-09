@@ -364,6 +364,104 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEBase",
+        "importPath": "email.mime.base",
+        "description": "email.mime.base",
+        "isExtraImport": true,
+        "detail": "email.mime.base",
+        "documentation": {}
+    },
+    {
+        "label": "encoders",
+        "importPath": "email",
+        "description": "email",
+        "isExtraImport": true,
+        "detail": "email",
+        "documentation": {}
+    },
+    {
+        "label": "HTML_TEMPLATE",
+        "importPath": "src.constant",
+        "description": "src.constant",
+        "isExtraImport": true,
+        "detail": "src.constant",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
@@ -510,38 +608,6 @@
         "description": "src.main",
         "isExtraImport": true,
         "detail": "src.main",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -1063,6 +1129,42 @@
         "description": "currency_converter.src.main",
         "peekOfCode": "def main():\n    show_menu()\n    while True:\n        select_choice = input(\"\\nPlease choose an option(3 for show menu): \").strip()\n        if select_choice == \"3\":\n            show_menu()\n        elif select_choice == \"2\":\n            print(\"Goodbye\")\n            break\n        elif select_choice == \"1\":",
         "detail": "currency_converter.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "HTML_TEMPLATE",
+        "kind": 5,
+        "importPath": "email.src.constant",
+        "description": "email.src.constant",
+        "peekOfCode": "HTML_TEMPLATE = \"\"\"\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\">\n</head>\n<body style=\"margin:0;padding:0;background:#f4f4f4;font-family:Arial,sans-serif;\">\n    <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background:#f4f4f4;padding:40px 0;\">\n        <tr>\n            <td align=\"center\">",
+        "detail": "email.src.constant",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "kind": 2,
+        "importPath": "email.src.main",
+        "description": "email.src.main",
+        "peekOfCode": "def send_mail(sender: str, recipient: str, subject: str, body: str):\n    html = HTML_TEMPLATE.format(\n        name=recipient.split(\"@\")[0], message=body, sender=\"Amir\"\n    )\n    msg = MIMEMultipart()\n    msg[\"Subject\"] = subject or \"This is test subject\"\n    msg[\"From\"] = sender\n    msg[\"To\"] = recipient\n    msg.attach(MIMEText(html, \"html\"))\n    try:",
+        "detail": "email.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "email.src.main",
+        "description": "email.src.main",
+        "peekOfCode": "def main():\n    while True:\n        recipient = input(\"\\nEnter recipient: \").strip()\n        if not recipient:\n            print(\"This is required field!\")\n            continue\n        subject = input(\n            \"\\nEnter subject(defult value is 'This is test subject'): \"\n        ).strip()\n        body = input(\"\\nEnter message(default value is 'This is test email'): \").strip()",
+        "detail": "email.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "email.src.main",
+        "description": "email.src.main",
+        "peekOfCode": "file_path = Path(__file__).parent / \"book.pptx\"\ndef send_mail(sender: str, recipient: str, subject: str, body: str):\n    html = HTML_TEMPLATE.format(\n        name=recipient.split(\"@\")[0], message=body, sender=\"Amir\"\n    )\n    msg = MIMEMultipart()\n    msg[\"Subject\"] = subject or \"This is test subject\"\n    msg[\"From\"] = sender\n    msg[\"To\"] = recipient\n    msg.attach(MIMEText(html, \"html\"))",
+        "detail": "email.src.main",
         "documentation": {}
     },
     {
