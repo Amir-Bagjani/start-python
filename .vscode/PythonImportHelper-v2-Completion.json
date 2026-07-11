@@ -348,6 +348,22 @@
         "documentation": {}
     },
     {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "CURRENCIES",
         "importPath": "src.utils.constants",
         "description": "src.utils.constants",
@@ -390,6 +406,22 @@
         "documentation": {}
     },
     {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
         "label": "MIMEText",
         "importPath": "email.mime.text",
         "description": "email.mime.text",
@@ -403,6 +435,22 @@
         "description": "email.mime.base",
         "isExtraImport": true,
         "detail": "email.mime.base",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEBase",
+        "importPath": "email.mime.base",
+        "description": "email.mime.base",
+        "isExtraImport": true,
+        "detail": "email.mime.base",
+        "documentation": {}
+    },
+    {
+        "label": "encoders",
+        "importPath": "email",
+        "description": "email",
+        "isExtraImport": true,
+        "detail": "email",
         "documentation": {}
     },
     {
@@ -459,6 +507,102 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "tinydb",
+        "description": "tinydb",
+        "isExtraImport": true,
+        "detail": "tinydb",
+        "documentation": {}
+    },
+    {
+        "label": "TinyDB",
+        "importPath": "tinydb",
+        "description": "tinydb",
+        "isExtraImport": true,
+        "detail": "tinydb",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "importPath": "db.db",
+        "description": "db.db",
+        "isExtraImport": true,
+        "detail": "db.db",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "importPath": "db.db",
+        "description": "db.db",
+        "isExtraImport": true,
+        "detail": "db.db",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "importPath": "db.db",
+        "description": "db.db",
+        "isExtraImport": true,
+        "detail": "db.db",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "importPath": "db.db",
+        "description": "db.db",
+        "isExtraImport": true,
+        "detail": "db.db",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "src.utils.helpers",
+        "description": "src.utils.helpers",
+        "isExtraImport": true,
+        "detail": "src.utils.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "importPath": "src.db.db",
+        "description": "src.db.db",
+        "isExtraImport": true,
+        "detail": "src.db.db",
         "documentation": {}
     },
     {
@@ -1165,6 +1309,195 @@
         "description": "email.src.main",
         "peekOfCode": "file_path = Path(__file__).parent / \"book.pptx\"\ndef send_mail(sender: str, recipient: str, subject: str, body: str):\n    html = HTML_TEMPLATE.format(\n        name=recipient.split(\"@\")[0], message=body, sender=\"Amir\"\n    )\n    msg = MIMEMultipart()\n    msg[\"Subject\"] = subject or \"This is test subject\"\n    msg[\"From\"] = sender\n    msg[\"To\"] = recipient\n    msg.attach(MIMEText(html, \"html\"))",
         "detail": "email.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "kind": 6,
+        "importPath": "email_manager.src.db.db",
+        "description": "email_manager.src.db.db",
+        "peekOfCode": "class DatabaseManager:\n    def __init__(self, db_path: str | Path = \"email_manager.json\"):\n        self.db = TinyDB(db_path)\n        self.profiles = self.db.table(\"profiles\")\n        self.user_profile = self.db.table(\"user_profiles\")\n        self.templates = self.db.table(\"templates\")\n        self.sent_emails = self.db.table(\"sent_emails\")\n        self.reminders = self.db.table(\"reminders\")\n        self.schedules = self.db.table(\"schedules\")\n    # profiles",
+        "detail": "email_manager.src.db.db",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.1_👥_Profiles",
+        "description": "email_manager.src.pages.1_👥_Profiles",
+        "peekOfCode": "db = DatabaseManager()\nst.title(\"👥 Profiles\")\nst.write(\"Manage email profiles.\")\nwith st.form(\"add_profile_form\", clear_on_submit=True):\n    name = st.text_input(\"Name\")\n    email = st.text_input(\"Email\")\n    title = st.text_input(\"Title\")\n    profession = st.text_input(\"Profession\")\n    submitted = st.form_submit_button(\"Add\")\n    if submitted:",
+        "detail": "email_manager.src.pages.1_👥_Profiles",
+        "documentation": {}
+    },
+    {
+        "label": "profiles",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.1_👥_Profiles",
+        "description": "email_manager.src.pages.1_👥_Profiles",
+        "peekOfCode": "profiles = db.get_all_profiles()\nif not profiles:\n    st.info(\"No profiles found.\")\nelse:\n    for profile in profiles:\n        with st.container(border=True):\n            col1, col2 = st.columns([5, 1])\n            with col1:\n                st.write(f\"**Name:** {profile['name']}\")\n                st.write(f\"**Email:** {profile['email']}\")",
+        "detail": "email_manager.src.pages.1_👥_Profiles",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.2_📝_Email_Templates",
+        "description": "email_manager.src.pages.2_📝_Email_Templates",
+        "peekOfCode": "db = DatabaseManager()\nst.title(\"📝 Email Templates\")\nst.write(\"Create and manage your email templates.\")\nwith st.form(\"add_template_form\", clear_on_submit=True):\n    name = st.text_input(\"Template Name\")\n    body = st.text_area(\n        \"Template Body\",\n        height=200,\n        placeholder=\"Write your email template here...\",\n    )",
+        "detail": "email_manager.src.pages.2_📝_Email_Templates",
+        "documentation": {}
+    },
+    {
+        "label": "templates",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.2_📝_Email_Templates",
+        "description": "email_manager.src.pages.2_📝_Email_Templates",
+        "peekOfCode": "templates = db.get_all_templates()\nif not templates:\n    st.info(\"No templates found.\")\nelse:\n    for template in templates:\n        with st.container(border=True):\n            col1, col2 = st.columns([5, 1])\n            with col1:\n                st.write(f\"### {template['name']}\")\n                st.text(template[\"body\"])",
+        "detail": "email_manager.src.pages.2_📝_Email_Templates",
+        "documentation": {}
+    },
+    {
+        "label": "inject_variables",
+        "kind": 2,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "def inject_variables(body: str, recipient):\n    result = body\n    variables = {\n        \"{{name}}\": recipient.get(\"name\", \"\"),\n        \"{{email}}\": recipient.get(\"email\", \"\"),\n        \"{{recipient_title}}\": recipient.get(\"title\", \"\"),\n        \"{{recipient_profession}}\": recipient.get(\"profession\", \"\"),\n        \"{{my_name}}\": user.get(\"name\", \"\") if user else \"\",\n        \"{{my_title}}\": user.get(\"title\", \"\") if user else \"\",\n        \"{{my_degree}}\": user.get(\"degree\", \"\") if user else \"\",",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "db = DatabaseManager()\nst.title(\"✉️ Send Email\")\nprofiles = db.get_all_profiles()\ntemplates = db.get_all_templates()\nuser = db.get_user_profile()\nif not profiles:\n    st.warning(\"Please create at least one profile first.\")\n    st.stop()\nif not templates:\n    st.warning(\"Please create at least one email template first.\")",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "profiles",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "profiles = db.get_all_profiles()\ntemplates = db.get_all_templates()\nuser = db.get_user_profile()\nif not profiles:\n    st.warning(\"Please create at least one profile first.\")\n    st.stop()\nif not templates:\n    st.warning(\"Please create at least one email template first.\")\n    st.stop()\n# -------------------------------------------------------------------",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "templates",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "templates = db.get_all_templates()\nuser = db.get_user_profile()\nif not profiles:\n    st.warning(\"Please create at least one profile first.\")\n    st.stop()\nif not templates:\n    st.warning(\"Please create at least one email template first.\")\n    st.stop()\n# -------------------------------------------------------------------\n# Top Section",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "user = db.get_user_profile()\nif not profiles:\n    st.warning(\"Please create at least one profile first.\")\n    st.stop()\nif not templates:\n    st.warning(\"Please create at least one email template first.\")\n    st.stop()\n# -------------------------------------------------------------------\n# Top Section\n# -------------------------------------------------------------------",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "selected_profiles",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "selected_profiles = st.multiselect(\n    \"Recipients\",\n    options=profiles,\n    format_func=lambda p: f\"{p['name']} <{p['email']}>\",\n)\nselected_template = st.selectbox(\n    \"Template\",\n    options=templates,\n    format_func=lambda t: t[\"name\"],\n)",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "selected_template",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "selected_template = st.selectbox(\n    \"Template\",\n    options=templates,\n    format_func=lambda t: t[\"name\"],\n)\nsubject = st.text_input(\"Subject\")\ninclude_signature = st.toggle(\n    \"Include Signature\",\n    value=True,\n)",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "subject",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "subject = st.text_input(\"Subject\")\ninclude_signature = st.toggle(\n    \"Include Signature\",\n    value=True,\n)\n# -------------------------------------------------------------------\n# Build Preview\n# -------------------------------------------------------------------\nraw_body = selected_template[\"body\"]\ndef inject_variables(body: str, recipient):",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "include_signature",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "include_signature = st.toggle(\n    \"Include Signature\",\n    value=True,\n)\n# -------------------------------------------------------------------\n# Build Preview\n# -------------------------------------------------------------------\nraw_body = selected_template[\"body\"]\ndef inject_variables(body: str, recipient):\n    result = body",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "raw_body",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "raw_body = selected_template[\"body\"]\ndef inject_variables(body: str, recipient):\n    result = body\n    variables = {\n        \"{{name}}\": recipient.get(\"name\", \"\"),\n        \"{{email}}\": recipient.get(\"email\", \"\"),\n        \"{{recipient_title}}\": recipient.get(\"title\", \"\"),\n        \"{{recipient_profession}}\": recipient.get(\"profession\", \"\"),\n        \"{{my_name}}\": user.get(\"name\", \"\") if user else \"\",\n        \"{{my_title}}\": user.get(\"title\", \"\") if user else \"\",",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "preview",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.3_✉️_Send_Email",
+        "description": "email_manager.src.pages.3_✉️_Send_Email",
+        "peekOfCode": "preview = \"\"\nif selected_profiles:\n    preview = inject_variables(raw_body, selected_profiles[0])\n# -------------------------------------------------------------------\n# Body / Preview\n# -------------------------------------------------------------------\nleft, right = st.columns(2)\nwith left:\n    st.subheader(\"Raw Template\")\n    st.text_area(",
+        "detail": "email_manager.src.pages.3_✉️_Send_Email",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.8_👤_User_Profile",
+        "description": "email_manager.src.pages.8_👤_User_Profile",
+        "peekOfCode": "db = DatabaseManager()\nst.title(\"👤 User Profile\")\nprofile = db.get_user_profile()\nwith st.form(\"user_profile_form\"):\n    st.subheader(\"Basic Information\")\n    col1, col2 = st.columns(2)\n    with col1:\n        title = st.text_input(\n            \"Title\",\n            value=profile[\"title\"] if profile else \"\",",
+        "detail": "email_manager.src.pages.8_👤_User_Profile",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.8_👤_User_Profile",
+        "description": "email_manager.src.pages.8_👤_User_Profile",
+        "peekOfCode": "profile = db.get_user_profile()\nwith st.form(\"user_profile_form\"):\n    st.subheader(\"Basic Information\")\n    col1, col2 = st.columns(2)\n    with col1:\n        title = st.text_input(\n            \"Title\",\n            value=profile[\"title\"] if profile else \"\",\n        )\n        degree = st.text_input(",
+        "detail": "email_manager.src.pages.8_👤_User_Profile",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 5,
+        "importPath": "email_manager.src.pages.8_👤_User_Profile",
+        "description": "email_manager.src.pages.8_👤_User_Profile",
+        "peekOfCode": "profile = db.get_user_profile()\nif profile:\n    st.subheader(\"Preview\")\n    col1, col2 = st.columns([2, 1])\n    with col1:\n        st.markdown(f\"## {profile['name']}\")\n        if profile[\"title\"]:\n            st.write(profile[\"title\"])\n        if profile[\"degree\"]:\n            st.write(f\"🎓 **Degree:** {profile['degree']}\")",
+        "detail": "email_manager.src.pages.8_👤_User_Profile",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "kind": 2,
+        "importPath": "email_manager.src.utils.helpers",
+        "description": "email_manager.src.utils.helpers",
+        "peekOfCode": "def send_mail(\n    to: str, subject: str, content: str, attachments=None\n) -> tuple[bool, str]:\n    \"\"\"Send an email within sender credentials from environment varables\n    Args:\n        to (str or list): The email address(es) of the to(s)\n        subject (str): the subject of the email\n        content (str or list): The contents of the email\n        attachments (str or list, optional): Path(s) to file(s) to be attached. Defaults to None.\n    Returns:",
+        "detail": "email_manager.src.utils.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "email_manager.src.main",
+        "description": "email_manager.src.main",
+        "peekOfCode": "def main():\n    # print(\n    #     send_mail(\n    #         to=\"amirbagjani@gmail.com\",\n    #         subject=\"Test\",\n    #         content=\"<p>Attached files.</p>\",\n    #         attachments=[\"esfand.xlsx\", \"book.pptx\"],\n    #     )\n    # )\n    pass",
+        "detail": "email_manager.src.main",
         "documentation": {}
     },
     {

@@ -1,0 +1,86 @@
+{
+  "profiles": {
+    "1": {
+      "name": "test 1",
+      "email": "amir@gmail.com",
+      "title": "Software",
+      "profession": "AI"
+    },
+    "2": {
+      "name": "second user",
+      "email": "barber@gmail.com",
+      "title": "hair stylist",
+      "profession": "barber"
+    }
+  },
+  "templates": {
+    "1": {
+      "name": "wellcome",
+      "body": "Welcome Email\n\nHello {{name}},\n\nWelcome to our platform.\nThanks for joining us."
+    },
+    "2": {
+      "name": "collage",
+      "body": "Dear Prof. {{name}},\n\nI hope this email finds you well.\n\nMy name is {{my_name}}, and I am a {{my_degree}} in {{my_profession}} at {{my_university}}.\n\nI have been reading about your research and found your work very inspiring. Your research aligns closely with my interests, and I would be honored to learn more about your current projects and potential opportunities to work with your research group.\n\nI have attached my CV for your consideration. I would greatly appreciate the opportunity to discuss whether my background and research interests could be a good fit for your lab.\n\nThank you very much for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\n{{my_name}}"
+    },
+    "3": {
+      "name": "job",
+      "body": "Dear {{name}},\n\nI hope this email finds you well.\n\nMy name is {{my_name}}, and I am a {{my_degree}} working as a {{my_profession}} at {{my_university}}.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: {{github}}\n\u2022 LinkedIn: {{linkedin}}\n\u2022 X (Twitter): {{x}}\n\u2022 Personal Website: {{website}}\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\n{{my_name}}"
+    }
+  },
+  "user_profiles": {
+    "1": {
+      "name": "Louis",
+      "title": "Louis",
+      "degree": "Post Doc",
+      "profession": "Software Engineer",
+      "university": "MIT",
+      "github": "https://github.com/amir-bagjani",
+      "linkedin": "https://linkedin.com/amir-bagjani",
+      "x": "https://x.com/amir-bagjani",
+      "website": "https://amir-bagjani.com",
+      "signature": "Kind regards,\nLouise Alfredo\nSoftware Engineer"
+    }
+  },
+  "sent_emails": {
+    "1": {
+      "recipient": "amir@gmail.com",
+      "subject": "yoo",
+      "body": "Dear test 1,\n\nI hope this email finds you well.\n\nMy name is Louis, and I am a Post Doc working as a Software Engineer at MIT.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: https://github.com/amir-bagjani\n\u2022 LinkedIn: https://linkedin.com/amir-bagjani\n\u2022 X (Twitter): https://x.com/amir-bagjani\n\u2022 Personal Website: https://amir-bagjani.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\nLouis\n\nKind regards,\nLouise Alfredo\nSoftware Engineer",
+      "sent_date": "2026-07-12T00:04:10.087899"
+    },
+    "2": {
+      "recipient": "barber@gmail.com",
+      "subject": "yoo",
+      "body": "Dear second user,\n\nI hope this email finds you well.\n\nMy name is Louis, and I am a Post Doc working as a Software Engineer at MIT.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: https://github.com/amir-bagjani\n\u2022 LinkedIn: https://linkedin.com/amir-bagjani\n\u2022 X (Twitter): https://x.com/amir-bagjani\n\u2022 Personal Website: https://amir-bagjani.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\nLouis\n\nKind regards,\nLouise Alfredo\nSoftware Engineer",
+      "sent_date": "2026-07-12T00:04:10.089183"
+    }
+  },
+  "schedules": {
+    "1": {
+      "recipient": "amir@gmail.com",
+      "subject": "yoo",
+      "body": "Dear test 1,\n\nI hope this email finds you well.\n\nMy name is Louis, and I am a Post Doc working as a Software Engineer at MIT.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: https://github.com/amir-bagjani\n\u2022 LinkedIn: https://linkedin.com/amir-bagjani\n\u2022 X (Twitter): https://x.com/amir-bagjani\n\u2022 Personal Website: https://amir-bagjani.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\nLouis\n\nKind regards,\nLouise Alfredo\nSoftware Engineer",
+      "schedule_date": "2026-07-12T00:05:00"
+    },
+    "2": {
+      "recipient": "barber@gmail.com",
+      "subject": "yoo",
+      "body": "Dear second user,\n\nI hope this email finds you well.\n\nMy name is Louis, and I am a Post Doc working as a Software Engineer at MIT.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: https://github.com/amir-bagjani\n\u2022 LinkedIn: https://linkedin.com/amir-bagjani\n\u2022 X (Twitter): https://x.com/amir-bagjani\n\u2022 Personal Website: https://amir-bagjani.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\nLouis\n\nKind regards,\nLouise Alfredo\nSoftware Engineer",
+      "schedule_date": "2026-07-12T00:05:00"
+    }
+  },
+  "reminders": {
+    "1": {
+      "recipient": "amir@gmail.com",
+      "subject": "yoo",
+      "body": "Dear test 1,\n\nI hope this email finds you well.\n\nMy name is Louis, and I am a Post Doc working as a Software Engineer at MIT.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: https://github.com/amir-bagjani\n\u2022 LinkedIn: https://linkedin.com/amir-bagjani\n\u2022 X (Twitter): https://x.com/amir-bagjani\n\u2022 Personal Website: https://amir-bagjani.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\nLouis\n\nKind regards,\nLouise Alfredo\nSoftware Engineer",
+      "reminder_date": "2026-07-12T00:02:00"
+    },
+    "2": {
+      "recipient": "barber@gmail.com",
+      "subject": "yoo",
+      "body": "Dear second user,\n\nI hope this email finds you well.\n\nMy name is Louis, and I am a Post Doc working as a Software Engineer at MIT.\n\nI recently came across your profile/company and was impressed by the work your team is doing. I am currently seeking new opportunities where I can contribute my technical skills while continuing to grow as a software engineer.\n\nMy experience includes building scalable web applications, developing modern user interfaces, and working with technologies such as React, TypeScript, Python, and related tools. I enjoy solving challenging engineering problems and collaborating with cross-functional teams to deliver high-quality products.\n\nI have attached my resume for your review. If you believe my background could be a good fit for your team, I would greatly appreciate the opportunity to discuss any current or future openings.\n\nYou can also learn more about my work through the following links:\n\n\u2022 GitHub: https://github.com/amir-bagjani\n\u2022 LinkedIn: https://linkedin.com/amir-bagjani\n\u2022 X (Twitter): https://x.com/amir-bagjani\n\u2022 Personal Website: https://amir-bagjani.com\n\nThank you for your time and consideration. I look forward to hearing from you.\n\nBest regards,\n\nLouis\n\nKind regards,\nLouise Alfredo\nSoftware Engineer",
+      "reminder_date": "2026-07-12T00:02:00"
+    }
+  }
+}

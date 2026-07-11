@@ -1,0 +1,97 @@
+# ==========================================
+# Core Settings
+# ==========================================
+# Exclude commonly ignored directories
+exclude = [
+    ".bzr", ".direnv", ".eggs", ".git", ".git-rewrite", ".hg",
+    ".mypy_cache", ".nox", ".pants.d", ".pytype", ".ruff_cache",
+    ".svn", ".tox", ".venv", "__pypackages__", "_build", "buck-out",
+    "build", "dist", "node_modules", "venv",
+]
+
+# Same as Black's default (highly recommended for ecosystem compatibility)
+line-length = 88
+
+# Assume Python 3.12 (Standard baseline for 2026)
+target-version = "py312"
+
+# ==========================================
+# Linter Settings
+# ==========================================
+[lint]
+# Enable a comprehensive set of modern Python rules
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # Pyflakes
+    "I",    # isort (import sorting)
+    "UP",   # pyupgrade (auto-upgrade syntax to modern Python)
+    "B",    # flake8-bugbear (detects common bugs and design problems)
+    "C4",   # flake8-comprehensions (better list/dict/set comprehensions)
+    "SIM",  # flake8-simplify (simplifies code logic)
+    "TCH",  # flake8-type-checking (moves imports into `if TYPE_CHECKING`)
+    "RUF",  # Ruff-specific rules (highly optimized checks)
+    "ARG",  # flake8-unused-arguments
+    "PTH",  # flake8-use-pathlib (enforces pathlib over os.path)
+    "PIE",  # flake8-pie (miscellaneous linting)
+    "RET",  # flake8-return (improves return statements)
+    "ERA",  # eradicate (detects commented-out code)
+    "PL",   # Pylint (comprehensive static analysis)
+    "TRY",  # tryceratops (better exception handling)
+]
+
+ignore = [
+    "E501",   # Line too long (handled by the Ruff formatter now)
+    "B008",   # Do not perform function calls in argument defaults (Required for FastAPI/Depends)
+    "SIM108", # Use ternary operator (sometimes reduces readability)
+    "TRY003", # Avoid specifying long messages outside the exception class (Too strict for general apps)
+    "RET504", # Unnecessary assignment before return (Often used for debugging/typing)
+    "PLR0913",# Too many arguments in function definition
+    "PLR2004",# Magic value used in comparison (Too noisy)
+    "RUF012", # Mutable class attributes (Often yields false positives)
+]
+
+# Allow autofix for all enabled rules (when `--fix` is provided)
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed (e.g., `_unused`)
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# ==========================================
+# Formatter Settings (Replaces Black)
+# ==========================================
+[format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+# Enable auto-formatting of code examples in docstrings.
+docstring-code-format = true
+# Set the line length limit for docstring code snippets.
+docstring-code-line-length = 80
+
+# ==========================================
+# Isort Settings
+# ==========================================
+[lint.isort]
+# Combine `as` imports on the same line
+combine-as-imports = true
+# known-first-party = ["your_project_name"] # Uncomment and set your project name
+
+# ==========================================
+# Per-file Ignores
+# ==========================================
+[lint.per-file-ignores]
+# Ignore unused imports in __init__.py files (used for exposing APIs)
+"__init__.py" = ["F401"]
+
+# Relax rules for tests (allow asserts, magic numbers, unused args, dead code)
+"tests/**.py" = ["ARG", "S101", "PLR2004", "RUF012", "ERA001"]
+
+# Ignore type checking imports in stubs
+"*.pyi" = ["TCH001", "TCH002", "TCH003"]
