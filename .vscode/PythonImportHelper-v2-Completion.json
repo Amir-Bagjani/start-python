@@ -534,6 +534,14 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Query",
         "importPath": "tinydb",
         "description": "tinydb",
@@ -752,6 +760,54 @@
         "description": "src.main",
         "isExtraImport": true,
         "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "RESUME_SCHEME_PROMPT",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "RESUME_SCHEME_PROMPT",
+        "importPath": "constants",
+        "description": "constants",
+        "isExtraImport": true,
+        "detail": "constants",
+        "documentation": {}
+    },
+    {
+        "label": "ask_ai",
+        "importPath": "llm_interface",
+        "description": "llm_interface",
+        "isExtraImport": true,
+        "detail": "llm_interface",
+        "documentation": {}
+    },
+    {
+        "label": "ask_ai",
+        "importPath": "llm_interface",
+        "description": "llm_interface",
+        "isExtraImport": true,
+        "detail": "llm_interface",
+        "documentation": {}
+    },
+    {
+        "label": "PdfReader",
+        "importPath": "PyPDF2",
+        "description": "PyPDF2",
+        "isExtraImport": true,
+        "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "PdfReader",
+        "importPath": "PyPDF2",
+        "description": "PyPDF2",
+        "isExtraImport": true,
+        "detail": "PyPDF2",
         "documentation": {}
     },
     {
@@ -1804,6 +1860,60 @@
         "description": "password_generator.view.main",
         "peekOfCode": "generator = None\nif option == \"Pin Password\":\n    length = st.slider(\"Select the length of the pin:\", 4, 10)\n    generator = PinGenerator(length=length)\nelif option == \"Random Password\":\n    length = st.slider(\"Select the length of the random password:\", 4, 10)\n    random_options = st.multiselect(\"select the options:\", (\"numbers\", \"symbols\"))\n    generator = RandomPasswordGenerator(\n        length=length,\n        includes_number=\"numbers\" in random_options,",
         "detail": "password_generator.view.main",
+        "documentation": {}
+    },
+    {
+        "label": "extract_pdf_text",
+        "kind": 2,
+        "importPath": "pdf_text.src.app",
+        "description": "pdf_text.src.app",
+        "peekOfCode": "def extract_pdf_text(pdf_file) -> str:\n    reader = PdfReader(pdf_file)\n    resume_text = \"\"\n    for page in reader.pages:\n        resume_text += page.extract_text() or \"\"\n    return resume_text\nst.set_page_config(page_title=\"Resume Parser\", page_icon=\"📄\")\nst.title(\"📄 Resume Parser\")\nuploaded_file = st.file_uploader(\n    \"Upload your resume (PDF)\",",
+        "detail": "pdf_text.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded_file",
+        "kind": 5,
+        "importPath": "pdf_text.src.app",
+        "description": "pdf_text.src.app",
+        "peekOfCode": "uploaded_file = st.file_uploader(\n    \"Upload your resume (PDF)\",\n    type=[\"pdf\"],\n)\nif uploaded_file:\n    st.success(f\"Selected: {uploaded_file.name}\")\n    if st.button(\"Generate\"):\n        with st.spinner(\"Loading...\"):\n            resume_text = extract_pdf_text(uploaded_file)\n            prompt = f\"{RESUME_SCHEME_PROMPT}\\n\\n{resume_text}\"",
+        "detail": "pdf_text.src.app",
+        "documentation": {}
+    },
+    {
+        "label": "RESUME_SCHEME_PROMPT",
+        "kind": 5,
+        "importPath": "pdf_text.src.constants",
+        "description": "pdf_text.src.constants",
+        "peekOfCode": "RESUME_SCHEME_PROMPT = \"\"\"\n````text\nYou are an expert resume parser.\nYour task is to convert the provided resume into a structured JSON object.\n## Rules\n- Return ONLY valid JSON.\n- Do NOT wrap the response in markdown.\n- Do NOT include explanations, comments, or additional text.\n- Do NOT invent information.\n- Preserve the original wording whenever possible.",
+        "detail": "pdf_text.src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "ask_ai",
+        "kind": 2,
+        "importPath": "pdf_text.src.llm_interface",
+        "description": "pdf_text.src.llm_interface",
+        "peekOfCode": "def ask_ai(prompt: str):\n    try:\n        res = requests.post(\n            url=\"http://localhost:11434/api/chat\",\n            headers={\"Content-Type\": \"application/json\"},\n            data=json.dumps(\n                {\n                    \"model\": \"minimax-m3:cloud\",\n                    \"messages\": [{\"role\": \"user\", \"content\": prompt}],\n                    \"stream\": False,",
+        "detail": "pdf_text.src.llm_interface",
+        "documentation": {}
+    },
+    {
+        "label": "extract_pdf_text",
+        "kind": 2,
+        "importPath": "pdf_text.src.main",
+        "description": "pdf_text.src.main",
+        "peekOfCode": "def extract_pdf_text(file_path: str | Path) -> str:\n    reader = PdfReader(Path(file_path))\n    resume_text = \"\"\n    for page_text in reader.pages:\n        resume_text += page_text.extract_text()\n    return resume_text\nprint(\"Loading...\")\nprompt = f\"{RESUME_SCHEME_PROMPT}\\n\\n{extract_pdf_text('resume.pdf')}\"\nprint(ask_ai(prompt))",
+        "detail": "pdf_text.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "pdf_text.src.main",
+        "description": "pdf_text.src.main",
+        "peekOfCode": "prompt = f\"{RESUME_SCHEME_PROMPT}\\n\\n{extract_pdf_text('resume.pdf')}\"\nprint(ask_ai(prompt))",
+        "detail": "pdf_text.src.main",
         "documentation": {}
     },
     {
