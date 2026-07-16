@@ -252,6 +252,22 @@
         "documentation": {}
     },
     {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "ContactBook",
         "importPath": "src.model.contact",
         "description": "src.model.contact",
@@ -349,6 +365,14 @@
     },
     {
         "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -558,6 +582,22 @@
         "documentation": {}
     },
     {
+        "label": "Query",
+        "importPath": "tinydb",
+        "description": "tinydb",
+        "isExtraImport": true,
+        "detail": "tinydb",
+        "documentation": {}
+    },
+    {
+        "label": "TinyDB",
+        "importPath": "tinydb",
+        "description": "tinydb",
+        "isExtraImport": true,
+        "detail": "tinydb",
+        "documentation": {}
+    },
+    {
         "label": "DatabaseManager",
         "importPath": "db.db",
         "description": "db.db",
@@ -705,6 +745,14 @@
         "documentation": {}
     },
     {
+        "label": "WELCOME_MSG",
+        "importPath": "src.constants",
+        "description": "src.constants",
+        "isExtraImport": true,
+        "detail": "src.constants",
+        "documentation": {}
+    },
+    {
         "label": "nltk",
         "kind": 6,
         "isExtraImport": true,
@@ -808,6 +856,111 @@
         "description": "PyPDF2",
         "isExtraImport": true,
         "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "YoooBot",
+        "importPath": "src.main_class_base",
+        "description": "src.main_class_base",
+        "isExtraImport": true,
+        "detail": "src.main_class_base",
+        "documentation": {}
+    },
+    {
+        "label": "telebot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "telebot",
+        "description": "telebot",
+        "detail": "telebot",
+        "documentation": {}
+    },
+    {
+        "label": "ADMINS",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "VALID_GROUPS",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "ADMINS",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "VALID_GROUPS",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "ask_ai",
+        "importPath": "src.llm",
+        "description": "src.llm",
+        "isExtraImport": true,
+        "detail": "src.llm",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "telebot.types",
+        "description": "telebot.types",
+        "isExtraImport": true,
+        "detail": "telebot.types",
+        "documentation": {}
+    },
+    {
+        "label": "ReactionTypeEmoji",
+        "importPath": "telebot.types",
+        "description": "telebot.types",
+        "isExtraImport": true,
+        "detail": "telebot.types",
         "documentation": {}
     },
     {
@@ -1941,6 +2094,105 @@
         "description": "rock_paper_scissors.src.main",
         "peekOfCode": "def main() -> None:\n    game = RockPaperScissors(\"Amir\")\n    game.print_instructions()\n    while True:\n        game.play()\n        if not play_again(game.get_player_name()):\n            print(\"Goodbye\")\n            break\nif __name__ == \"__main__\":\n    main()",
         "detail": "rock_paper_scissors.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "VALID_GROUPS",
+        "kind": 5,
+        "importPath": "telegram.src.config",
+        "description": "telegram.src.config",
+        "peekOfCode": "VALID_GROUPS = [\"yooomfgroup\"]\nADMINS = [\"amirbagjani\"]\nBOT_TOKEN = \"8946973577:AAH34ZMxPM4T1jXLZ4J18cNSa4dJEDhS6BY\"",
+        "detail": "telegram.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "ADMINS",
+        "kind": 5,
+        "importPath": "telegram.src.config",
+        "description": "telegram.src.config",
+        "peekOfCode": "ADMINS = [\"amirbagjani\"]\nBOT_TOKEN = \"8946973577:AAH34ZMxPM4T1jXLZ4J18cNSa4dJEDhS6BY\"",
+        "detail": "telegram.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "kind": 5,
+        "importPath": "telegram.src.config",
+        "description": "telegram.src.config",
+        "peekOfCode": "BOT_TOKEN = \"8946973577:AAH34ZMxPM4T1jXLZ4J18cNSa4dJEDhS6BY\"",
+        "detail": "telegram.src.config",
+        "documentation": {}
+    },
+    {
+        "label": "WELCOME_MSG",
+        "kind": 5,
+        "importPath": "telegram.src.constants",
+        "description": "telegram.src.constants",
+        "peekOfCode": "WELCOME_MSG = \"Hi, welcome to group, how are you doing?\"",
+        "detail": "telegram.src.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseManager",
+        "kind": 6,
+        "importPath": "telegram.src.database",
+        "description": "telegram.src.database",
+        "peekOfCode": "class DatabaseManager:\n    def __init__(self, db_path: str = \"messages.json\"):\n        self.db = TinyDB(db_path)\n        self.messages = self.db.table(\"messages\")\n    def save_message(self, message_data: dict) -> int:\n        return self.messages.insert(message_data)\n    def get_message(\n        self,\n        chat_id: int,\n        message_id: int,",
+        "detail": "telegram.src.database",
+        "documentation": {}
+    },
+    {
+        "label": "ask_ai",
+        "kind": 2,
+        "importPath": "telegram.src.llm",
+        "description": "telegram.src.llm",
+        "peekOfCode": "def ask_ai(prompt: str):\n    try:\n        res = requests.post(\n            url=\"http://localhost:11434/api/chat\",\n            headers={\"Content-Type\": \"application/json\"},\n            data=json.dumps(\n                {\n                    \"model\": \"minimax-m3:cloud\",\n                    \"messages\": [{\"role\": \"user\", \"content\": prompt}],\n                    \"stream\": False,",
+        "detail": "telegram.src.llm",
+        "documentation": {}
+    },
+    {
+        "label": "YoooBot",
+        "kind": 6,
+        "importPath": "telegram.src.main_class_base",
+        "description": "telegram.src.main_class_base",
+        "peekOfCode": "class YoooBot:\n    def __init__(self):\n        self.bot = telebot.TeleBot(BOT_TOKEN, parse_mode=\"markdown\")\n        self.db = DatabaseManager()\n        self.setup_handlers()\n    def setup_handlers(self):\n        self.bot.message_handler(commands=[\"start\", \"help\"])(self.send_welcome)\n        self.bot.message_handler(func=lambda _: True)(self.store_messages)\n        self.bot.message_handler(func=self.is_valid_admin_reply)(self.admin_reply)\n        self.bot.message_reaction_handler(func=lambda update: update.new_reaction)(",
+        "detail": "telegram.src.main_class_base",
+        "documentation": {}
+    },
+    {
+        "label": "is_admin_reply",
+        "kind": 2,
+        "importPath": "telegram.src.main_function_base",
+        "description": "telegram.src.main_function_base",
+        "peekOfCode": "def is_admin_reply(message) -> bool:\n    \"\"\"Return True if an admin replies inside a valid group\"\"\"\n    username = (message.from_user.username or \"\").lower()\n    chat = (message.chat.username or \"\").lower()\n    return (\n        (message.reply_to_message is not None)\n        and username in ADMINS\n        and chat in VALID_GROUPS\n    )\n@bot.message_handler(commands=[\"start\", \"help\"])",
+        "detail": "telegram.src.main_function_base",
+        "documentation": {}
+    },
+    {
+        "label": "send_welcome",
+        "kind": 2,
+        "importPath": "telegram.src.main_function_base",
+        "description": "telegram.src.main_function_base",
+        "peekOfCode": "def send_welcome(message):\n    bot.reply_to(message, \"Hi, how are you doing?\")\n@bot.message_handler(func=is_admin_reply)\ndef echo_all(message):\n    bot.reply_to(\n        message,\n        f\"You are replying to a message.\\n\\nYour reply: {message.text}\",\n    )\nif __name__ == \"__main__\":\n    print(\"Bot is running...\")",
+        "detail": "telegram.src.main_function_base",
+        "documentation": {}
+    },
+    {
+        "label": "echo_all",
+        "kind": 2,
+        "importPath": "telegram.src.main_function_base",
+        "description": "telegram.src.main_function_base",
+        "peekOfCode": "def echo_all(message):\n    bot.reply_to(\n        message,\n        f\"You are replying to a message.\\n\\nYour reply: {message.text}\",\n    )\nif __name__ == \"__main__\":\n    print(\"Bot is running...\")\n    bot.infinity_polling()",
+        "detail": "telegram.src.main_function_base",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "telegram.src.main_function_base",
+        "description": "telegram.src.main_function_base",
+        "peekOfCode": "bot = telebot.TeleBot(BOT_TOKEN, parse_mode=\"HTML\")\ndef is_admin_reply(message) -> bool:\n    \"\"\"Return True if an admin replies inside a valid group\"\"\"\n    username = (message.from_user.username or \"\").lower()\n    chat = (message.chat.username or \"\").lower()\n    return (\n        (message.reply_to_message is not None)\n        and username in ADMINS\n        and chat in VALID_GROUPS\n    )",
+        "detail": "telegram.src.main_function_base",
         "documentation": {}
     },
     {
